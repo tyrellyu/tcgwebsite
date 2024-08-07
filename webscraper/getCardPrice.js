@@ -9,7 +9,8 @@ const client = new Client({
     port: 5432,
     password: "",
     database: "tcgwebsite"
-})
+  })
+
 
 
 const getCardPrice = async () => {
@@ -79,3 +80,5 @@ getCardPrice()
     console.error('Error fetching card data:', error.message);
     client.end(); // Close connection on errors too
   });
+
+  
