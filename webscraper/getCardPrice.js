@@ -1,3 +1,4 @@
+
 const puppeteer = require('puppeteer');
 const pg = require('pg');
 
@@ -58,7 +59,7 @@ const getCardPrice = async () => {
 };
 
 
-client.connect();
+// client.connect();
 
 getCardPrice()
   .then(cardData => {
@@ -67,18 +68,26 @@ getCardPrice()
     const query = `INSERT INTO card (name, price) VALUES ($1, $2)`;
     const values = [cardData.h1Text, cardData.numPrice];
 
-    client.query(query, values, (err) => {
-      if (err) {
-        console.error('Error inserting data:', err.message);
-      } else {
-        console.log('Card data inserted successfully!');
-      }
-      client.end(); // Close the connection after insertion
-    });
+    const url = `http://localhost:3000/api/add-card?CardName=${cardData.h1Text}&Price=${cardData.numPrice}`
+
+    fetch(url)
+  .then(response => response.json())
+  .then(jsonData => console.log(jsonData))
+
+    // client.query(query, values, (err) => {
+    //   if (err) {
+    //     console.error('Error inserting data:', err.message);
+    //   } else {
+    //     console.log('Card data inserted successfully!');
+    //   }
+    //   client.end(); // Close the connection after insertion
+    // });
   })
   .catch(error => {
     console.error('Error fetching card data:', error.message);
-    client.end(); // Close connection on errors too
+    // client.end(); // Close connection on errors too
   });
+
+ 
 
   
