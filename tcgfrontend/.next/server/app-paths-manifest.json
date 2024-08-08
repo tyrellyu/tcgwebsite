@@ -1,3 +1,5 @@
 {
-  "/page": "app/page.js"
+  "/api/add-card/route": "app/api/add-card/route.js",
+  "/page": "app/page.js",
+  "/api/create-cards-table/route": "app/api/create-cards-table/route.js"
 }
