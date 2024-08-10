@@ -24,7 +24,7 @@ const getCardPrice = async () => {
 
   const page = await browser.newPage();
 
-  await page.goto('https://www.cardmarket.com/en/OnePiece/Products/Singles/Special-Tournaments-Promos/MonkeyDLuffy-ST01-001', {
+  await page.goto('https://www.cardmarket.com/en/OnePiece/Products/Singles/Romance-Dawn/Roronoa-Zoro-OP01-001-V2', {
     waitUntil: 'domcontentloaded',
   });
 
@@ -40,20 +40,29 @@ const getCardPrice = async () => {
     return infoElement ? infoElement.textContent : 'Element not found';
   });
 
-  function checkPrice(item) {
-    return item === "€1-day";
+  function checkPrice(cardPrice) {
+    return cardPrice === "€1-day";
+  }
+  function checkCardID(cardID) {
+    return cardID === "Number";
   }
 
   const arr = infoText.split(" ");
+  const cardNum = arr.findIndex(checkCardID);
   const oneDayAvgIndex = arr.findIndex(checkPrice);
+  
+  const CardNumID = arr [cardNum + 1].replace("RarityNumber","").replace("00","").replace("Printed","");
+  
 
   const formatPrice = arr[oneDayAvgIndex + 2].replace("price", "").replace(".", "").replace(",", ".");
   const numPrice = parseFloat(formatPrice) * 100;
+  const formatCardID = parseInt(CardNumID)
+  
 
   await browser.close();
 
   // Return both h1Text and numPrice as an object
-  return { h1Text, numPrice };
+  return { formatCardID, h1Text, numPrice };
 
 
 };
@@ -63,16 +72,16 @@ const getCardPrice = async () => {
 
 getCardPrice()
   .then(cardData => {
-    console.log("h1 Text:", cardData.h1Text);
+    console.log("Card ID:", cardData.formatCardID)
+    console.log("Card Name:", cardData.h1Text);
     console.log("Price:", cardData.numPrice);
-    const query = `INSERT INTO card (name, price) VALUES ($1, $2)`;
-    const values = [cardData.h1Text, cardData.numPrice];
-
-    const url = `http://localhost:3000/api/add-card?CardName=${cardData.h1Text}&Price=${cardData.numPrice}`
-
+    const query = `INSERT INTO card (cardID, name, price) VALUES ($1, $2, $3)`;
+    const values = [cardData.formatCardID, cardData.h1Text, cardData.numPrice];
+    const url = `http://localhost:3000/api/add-card?CardID=${cardData.formatCardID}&CardName=${cardData.h1Text}&Price=${cardData.numPrice}`
+    console.log(url)
     fetch(url)
-  .then(response => response.json())
-  .then(jsonData => console.log(jsonData))
+    .then(response => response.json())
+    .then(jsonData => console.log(jsonData))
 
     // client.query(query, values, (err) => {
     //   if (err) {
