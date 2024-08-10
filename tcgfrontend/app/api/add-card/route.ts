@@ -3,12 +3,13 @@ import { NextResponse } from 'next/server';
  
 export async function GET(request: Request) {
   const { searchParams } = new URL(request.url);
+  const CardID = searchParams.get('CardID');
   const CardName = searchParams.get('CardName');
   const Price = searchParams.get('Price');
  
   try {
-    if (!CardName || !Price) throw new Error('Card name and Price is required');
-    await sql`INSERT INTO Cards (CardName, Price) VALUES (${CardName}, ${Price});`;
+    if (!CardID || !CardName || !Price) throw new Error('Card ID, name and Price is required');
+    await sql`INSERT INTO Cards (CardID, CardName, Price) VALUES (${CardID}, ${CardName}, ${Price});`;
   } catch (error) {
     return NextResponse.json({ error }, { status: 500 });
   }
