@@ -1,6 +1,9 @@
 {
+  "type": "module",
   "dependencies": {
+    "nanoid": "^5.0.7",
     "pg": "^8.12.0",
     "puppeteer": "^22.15.0"
   }
 }
+
