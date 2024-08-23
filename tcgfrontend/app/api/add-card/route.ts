@@ -3,14 +3,14 @@ import { NextResponse } from 'next/server';
  
 export async function GET(request: Request) {
   const { searchParams } = new URL(request.url);
-  const id = searchParams.get('ID');
+  const cardid = searchParams.get('cardID');
   const CardName = searchParams.get('CardName');
   const CardSet = searchParams.get('CardSet');
   const CardNum = searchParams.get('CardNum');
   const Price = searchParams.get('Price');
   const Rarity = searchParams.get('Rarity')
   const CardPriceDate = searchParams.get('CardPriceDate');
-  console.log(id)
+  console.log(cardid)
   console.log(CardName)
   console.log(CardSet)
   console.log(CardNum)
@@ -19,9 +19,9 @@ export async function GET(request: Request) {
   console.log(CardPriceDate)
  
   try {
-    if (!id || !CardName || !CardSet || !CardNum || !Price || !Rarity || !CardPriceDate) throw new Error('ID, Name, Set, cardNo, Price, Rarity and Date of card price is required');
-    await sql`INSERT INTO Cards (ID, CardName, CardSet, CardNum, Price, Rarity, CardPriceDate) 
-              VALUES (${id}, ${CardName}, ${CardSet}, ${CardNum}, ${Price}, ${Rarity}, ${CardPriceDate});`;
+    if (!cardid || !CardName || !CardSet || !CardNum || !Price || !Rarity || !CardPriceDate) throw new Error('cardID, Name, Set, cardNo, Price, Rarity and Date of card price is required');
+    await sql`INSERT INTO Cards (cardID, CardName, CardSet, CardNum, Price, Rarity, CardPriceDate) 
+              VALUES (${cardid}, ${CardName}, ${CardSet}, ${CardNum}, ${Price}, ${Rarity}, ${CardPriceDate});`;
   } catch (error) {
     return NextResponse.json({ error }, { status: 500 });
   }

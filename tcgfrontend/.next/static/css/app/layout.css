@@ -566,60 +566,414 @@ video {
   --tw-contain-paint:  ;
   --tw-contain-style:  ;
 }
-.mt-6 {
-  margin-top: 1.5rem;
+.pointer-events-none {
+  pointer-events: none;
 }
-.grid {
-  display: grid;
+.absolute {
+  position: absolute;
 }
-.grid-cols-1 {
-  grid-template-columns: repeat(1, minmax(0, 1fr));
+.relative {
+  position: relative;
 }
-.gap-6 {
-  gap: 1.5rem;
+.inset-y-0 {
+  top: 0px;
+  bottom: 0px;
+}
+.left-0 {
+  left: 0px;
+}
+.-right-2 {
+  right: -0.5rem;
+}
+.-top-2 {
+  top: -0.5rem;
+}
+.mx-3 {
+  margin-left: 0.75rem;
+  margin-right: 0.75rem;
+}
+.mb-7 {
+  margin-bottom: 1.75rem;
+}
+.flex {
+  display: flex;
+}
+.inline-flex {
+  display: inline-flex;
+}
+.hidden {
+  display: none;
+}
+.h-full {
+  height: 100%;
+}
+.h-4 {
+  height: 1rem;
+}
+.h-7 {
+  height: 1.75rem;
+}
+.h-9 {
+  height: 2.25rem;
+}
+.min-h-screen {
+  min-height: 100vh;
+}
+.w-full {
+  width: 100%;
+}
+.w-4 {
+  width: 1rem;
+}
+.w-0 {
+  width: 0px;
+}
+.w-9 {
+  width: 2.25rem;
+}
+.cursor-pointer {
+  cursor: pointer;
+}
+.flex-col {
+  flex-direction: column;
+}
+.items-center {
+  align-items: center;
+}
+.justify-center {
+  justify-content: center;
+}
+.justify-between {
+  justify-content: space-between;
+}
+.gap-5 {
+  gap: 1.25rem;
+}
+.gap-3 {
+  gap: 0.75rem;
+}
+.rounded-full {
+  border-radius: 9999px;
+}
+.rounded-lg {
+  border-radius: 0.5rem;
+}
+.border-2 {
+  border-width: 2px;
+}
+.border {
+  border-width: 1px;
+}
+.border-l {
+  border-left-width: 1px;
+}
+.border-solid {
+  border-style: solid;
+}
+.border-gray-300 {
+  --tw-border-opacity: 1;
+  border-color: hsl(var(--twc-gray-300) / var(--twc-gray-300-opacity, var(--tw-border-opacity)));
+}
+.bg-gray-50 {
+  --tw-bg-opacity: 1;
+  background-color: hsl(var(--twc-gray-50) / var(--twc-gray-50-opacity, var(--tw-bg-opacity)));
+}
+.bg-gray-200 {
+  --tw-bg-opacity: 1;
+  background-color: hsl(var(--twc-gray-200) / var(--twc-gray-200-opacity, var(--tw-bg-opacity)));
+}
+.bg-gray-100 {
+  --tw-bg-opacity: 1;
+  background-color: hsl(var(--twc-gray-100) / var(--twc-gray-100-opacity, var(--tw-bg-opacity)));
+}
+.bg-white {
+  --tw-bg-opacity: 1;
+  background-color: hsl(var(--twc-white) / var(--twc-white-opacity, var(--tw-bg-opacity)));
+}
+.bg-red-400 {
+  --tw-bg-opacity: 1;
+  background-color: hsl(var(--twc-red-400) / var(--twc-red-400-opacity, var(--tw-bg-opacity)));
+}
+.p-24 {
+  padding: 6rem;
+}
+.px-9 {
+  padding-left: 2.25rem;
+  padding-right: 2.25rem;
+}
+.py-7 {
+  padding-top: 1.75rem;
+  padding-bottom: 1.75rem;
+}
+.px-3 {
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+}
+.py-3 {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+}
+.py-2 {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+.px-\[0\.4rem\] {
+  padding-left: 0.4rem;
+  padding-right: 0.4rem;
+}
+.py-1 {
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+}
+.pl-10 {
+  padding-left: 2.5rem;
+}
+.pr-4 {
+  padding-right: 1rem;
+}
+.pl-3 {
+  padding-left: 0.75rem;
+}
+.text-xs {
+  font-size: 0.75rem;
+  line-height: 1rem;
+}
+.font-semibold {
+  font-weight: 600;
+}
+.leading-none {
+  line-height: 1;
+}
+.text-gray-900 {
+  --tw-text-opacity: 1;
+  color: hsl(var(--twc-gray-900) / var(--twc-gray-900-opacity, var(--tw-text-opacity)));
+}
+.text-gray-500 {
+  --tw-text-opacity: 1;
+  color: hsl(var(--twc-gray-500) / var(--twc-gray-500-opacity, var(--tw-text-opacity)));
+}
+.text-red-100 {
+  --tw-text-opacity: 1;
+  color: hsl(var(--twc-red-100) / var(--twc-red-100-opacity, var(--tw-text-opacity)));
+}
+.light,[data-theme="light"] {
+  --twc-gray-50: 210 20% 98%;
+  --twc-gray-100: 220 14.3% 95.9%;
+  --twc-gray-200: 220 13% 91%;
+  --twc-gray-300: 216 12.2% 83.9%;
+  --twc-gray-400: 217.89999999999998 10.6% 64.9%;
+  --twc-gray-500: 220 8.9% 46.1%;
+  --twc-gray-600: 215 13.8% 34.1%;
+  --twc-gray-700: 216.89999999999998 19.1% 26.7%;
+  --twc-gray-800: 215 27.9% 16.9%;
+  --twc-gray-900: 220.89999999999998 39.3% 11%;
+  --twc-red-50: 0 85.7% 97.3%;
+  --twc-red-100: 0 93.3% 94.1%;
+  --twc-red-200: 0 96.3% 89.4%;
+  --twc-red-300: 0 93.5% 81.8%;
+  --twc-red-400: 0 90.6% 70.8%;
+  --twc-red-500: 0 84.2% 60.2%;
+  --twc-red-600: 0 72.2% 50.6%;
+  --twc-red-700: 0 73.7% 41.8%;
+  --twc-red-800: 0 70% 35.3%;
+  --twc-red-900: 0 62.8% 30.6%;
+  --twc-yellow-50: 54.5 91.7% 95.3%;
+  --twc-yellow-100: 54.89999999999998 96.7% 88%;
+  --twc-yellow-200: 52.80000000000001 98.3% 76.9%;
+  --twc-yellow-300: 50.39999999999998 97.8% 63.5%;
+  --twc-yellow-400: 47.89999999999998 95.8% 53.1%;
+  --twc-yellow-500: 45.39999999999998 93.4% 47.5%;
+  --twc-yellow-600: 40.60000000000002 96.1% 40.4%;
+  --twc-yellow-700: 35.5 91.7% 32.9%;
+  --twc-yellow-800: 31.80000000000001 81% 28.8%;
+  --twc-yellow-900: 28.399999999999977 72.5% 25.7%;
+  --twc-green-50: 138.5 76.5% 96.7%;
+  --twc-green-100: 140.60000000000002 84.2% 92.5%;
+  --twc-green-200: 141 78.9% 85.1%;
+  --twc-green-300: 141.7 76.6% 73.1%;
+  --twc-green-400: 141.89999999999998 69.2% 58%;
+  --twc-green-500: 142.10000000000002 70.6% 45.3%;
+  --twc-green-600: 142.10000000000002 76.2% 36.3%;
+  --twc-green-700: 142.39999999999998 71.8% 29.2%;
+  --twc-green-800: 142.8 64.2% 24.1%;
+  --twc-green-900: 143.8 61.2% 20.2%;
+  --twc-blue-50: 213.79999999999995 100% 96.9%;
+  --twc-blue-100: 214.29999999999995 94.6% 92.7%;
+  --twc-blue-200: 213.29999999999995 96.9% 87.3%;
+  --twc-blue-300: 211.70000000000005 96.4% 78.4%;
+  --twc-blue-400: 213.10000000000002 93.9% 67.8%;
+  --twc-blue-500: 217.20000000000005 91.2% 59.8%;
+  --twc-blue-600: 221.20000000000005 83.2% 53.3%;
+  --twc-blue-700: 224.29999999999995 76.3% 48%;
+  --twc-blue-800: 225.89999999999998 70.7% 40.2%;
+  --twc-blue-900: 224.39999999999998 64.3% 32.9%;
+  --twc-indigo-50: 225.89999999999998 100% 96.7%;
+  --twc-indigo-100: 226.5 100% 93.9%;
+  --twc-indigo-200: 228 96.5% 88.8%;
+  --twc-indigo-300: 229.70000000000005 93.5% 81.8%;
+  --twc-indigo-400: 234.5 89.5% 73.9%;
+  --twc-indigo-500: 238.70000000000005 83.5% 66.7%;
+  --twc-indigo-600: 243.39999999999998 75.4% 58.6%;
+  --twc-indigo-700: 244.5 57.9% 50.6%;
+  --twc-indigo-800: 243.70000000000005 54.5% 41.4%;
+  --twc-indigo-900: 242.20000000000005 47.4% 34.3%;
+  --twc-purple-50: 270 100% 98%;
+  --twc-purple-100: 268.70000000000005 100% 95.5%;
+  --twc-purple-200: 268.6 100% 91.8%;
+  --twc-purple-300: 269.20000000000005 97.4% 85.1%;
+  --twc-purple-400: 270 95.2% 75.3%;
+  --twc-purple-500: 270.70000000000005 91% 65.1%;
+  --twc-purple-600: 271.5 81.3% 55.9%;
+  --twc-purple-700: 272.1 71.7% 47.1%;
+  --twc-purple-800: 272.9 67.2% 39.4%;
+  --twc-purple-900: 273.6 65.6% 32%;
+  --twc-pink-50: 327.29999999999995 73.3% 97.1%;
+  --twc-pink-100: 325.70000000000005 77.8% 94.7%;
+  --twc-pink-200: 325.9 84.6% 89.8%;
+  --twc-pink-300: 327.4 87.1% 81.8%;
+  --twc-pink-400: 328.6 85.5% 70.2%;
+  --twc-pink-500: 330.4 81.2% 60.4%;
+  --twc-pink-600: 333.29999999999995 71.4% 50.6%;
+  --twc-pink-700: 335.1 77.6% 42%;
+  --twc-pink-800: 335.79999999999995 74.4% 35.3%;
+  --twc-pink-900: 335.9 69% 30.4%;
+  --twc-white: 0 0% 100%;
+}
+.dark,[data-theme="dark"] {
+  --twc-gray-50: 220.89999999999998 39.3% 11%;
+  --twc-gray-100: 215 27.9% 16.9%;
+  --twc-gray-200: 216.89999999999998 19.1% 26.7%;
+  --twc-gray-300: 215 13.8% 34.1%;
+  --twc-gray-400: 220 8.9% 46.1%;
+  --twc-gray-500: 217.89999999999998 10.6% 64.9%;
+  --twc-gray-600: 216 12.2% 83.9%;
+  --twc-gray-700: 220 13% 91%;
+  --twc-gray-800: 220 14.3% 95.9%;
+  --twc-gray-900: 210 20% 98%;
+  --twc-red-50: 0 62.8% 30.6%;
+  --twc-red-100: 0 70% 35.3%;
+  --twc-red-200: 0 73.7% 41.8%;
+  --twc-red-300: 0 72.2% 50.6%;
+  --twc-red-400: 0 84.2% 60.2%;
+  --twc-red-500: 0 90.6% 70.8%;
+  --twc-red-600: 0 93.5% 81.8%;
+  --twc-red-700: 0 96.3% 89.4%;
+  --twc-red-800: 0 93.3% 94.1%;
+  --twc-red-900: 0 85.7% 97.3%;
+  --twc-yellow-50: 28.399999999999977 72.5% 25.7%;
+  --twc-yellow-100: 31.80000000000001 81% 28.8%;
+  --twc-yellow-200: 35.5 91.7% 32.9%;
+  --twc-yellow-300: 40.60000000000002 96.1% 40.4%;
+  --twc-yellow-400: 45.39999999999998 93.4% 47.5%;
+  --twc-yellow-500: 47.89999999999998 95.8% 53.1%;
+  --twc-yellow-600: 50.39999999999998 97.8% 63.5%;
+  --twc-yellow-700: 52.80000000000001 98.3% 76.9%;
+  --twc-yellow-800: 54.89999999999998 96.7% 88%;
+  --twc-yellow-900: 54.5 91.7% 95.3%;
+  --twc-green-50: 143.8 61.2% 20.2%;
+  --twc-green-100: 142.8 64.2% 24.1%;
+  --twc-green-200: 142.39999999999998 71.8% 29.2%;
+  --twc-green-300: 142.10000000000002 76.2% 36.3%;
+  --twc-green-400: 142.10000000000002 70.6% 45.3%;
+  --twc-green-500: 141.89999999999998 69.2% 58%;
+  --twc-green-600: 141.7 76.6% 73.1%;
+  --twc-green-700: 141 78.9% 85.1%;
+  --twc-green-800: 140.60000000000002 84.2% 92.5%;
+  --twc-green-900: 138.5 76.5% 96.7%;
+  --twc-blue-50: 224.39999999999998 64.3% 32.9%;
+  --twc-blue-100: 225.89999999999998 70.7% 40.2%;
+  --twc-blue-200: 224.29999999999995 76.3% 48%;
+  --twc-blue-300: 221.20000000000005 83.2% 53.3%;
+  --twc-blue-400: 217.20000000000005 91.2% 59.8%;
+  --twc-blue-500: 213.10000000000002 93.9% 67.8%;
+  --twc-blue-600: 211.70000000000005 96.4% 78.4%;
+  --twc-blue-700: 213.29999999999995 96.9% 87.3%;
+  --twc-blue-800: 214.29999999999995 94.6% 92.7%;
+  --twc-blue-900: 213.79999999999995 100% 96.9%;
+  --twc-indigo-50: 242.20000000000005 47.4% 34.3%;
+  --twc-indigo-100: 243.70000000000005 54.5% 41.4%;
+  --twc-indigo-200: 244.5 57.9% 50.6%;
+  --twc-indigo-300: 243.39999999999998 75.4% 58.6%;
+  --twc-indigo-400: 238.70000000000005 83.5% 66.7%;
+  --twc-indigo-500: 234.5 89.5% 73.9%;
+  --twc-indigo-600: 229.70000000000005 93.5% 81.8%;
+  --twc-indigo-700: 228 96.5% 88.8%;
+  --twc-indigo-800: 226.5 100% 93.9%;
+  --twc-indigo-900: 225.89999999999998 100% 96.7%;
+  --twc-purple-50: 273.6 65.6% 32%;
+  --twc-purple-100: 272.9 67.2% 39.4%;
+  --twc-purple-200: 272.1 71.7% 47.1%;
+  --twc-purple-300: 271.5 81.3% 55.9%;
+  --twc-purple-400: 270.70000000000005 91% 65.1%;
+  --twc-purple-500: 270 95.2% 75.3%;
+  --twc-purple-600: 269.20000000000005 97.4% 85.1%;
+  --twc-purple-700: 268.6 100% 91.8%;
+  --twc-purple-800: 268.70000000000005 100% 95.5%;
+  --twc-purple-900: 270 100% 98%;
+  --twc-pink-50: 335.9 69% 30.4%;
+  --twc-pink-100: 335.79999999999995 74.4% 35.3%;
+  --twc-pink-200: 335.1 77.6% 42%;
+  --twc-pink-300: 333.29999999999995 71.4% 50.6%;
+  --twc-pink-400: 330.4 81.2% 60.4%;
+  --twc-pink-500: 328.6 85.5% 70.2%;
+  --twc-pink-600: 327.4 87.1% 81.8%;
+  --twc-pink-700: 325.9 84.6% 89.8%;
+  --twc-pink-800: 325.70000000000005 77.8% 94.7%;
+  --twc-pink-900: 327.29999999999995 73.3% 97.1%;
+  --twc-white: 224 71.4% 4.1%;
+  --twc-black: 210 20% 98%;
 }
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+html,
+body,
+#root,
+.app {
+  height: 100%;
+  width: 100%;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  --tw-bg-opacity: 1;
+  background-color: hsl(var(--twc-gray-500) / var(--twc-gray-500-opacity, var(--tw-bg-opacity)));
+  --tw-text-opacity: 1;
+  color: hsl(var(--twc-gray-900) / var(--twc-gray-900-opacity, var(--tw-text-opacity)));
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  padding: 1rem;
+.hover\:bg-blue-100:hover {
+  --tw-bg-opacity: 1;
+  background-color: hsl(var(--twc-blue-100) / var(--twc-blue-100-opacity, var(--tw-bg-opacity)));
 }
 
-@media (min-width: 640px) {
+.focus\:border-blue-500:focus {
+  --tw-border-opacity: 1;
+  border-color: hsl(var(--twc-blue-500) / var(--twc-blue-500-opacity, var(--tw-border-opacity)));
+}
 
-  .sm\:grid-cols-2 {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
+.focus\:outline-none:focus {
+  outline: 2px solid transparent;
+  outline-offset: 2px;
 }
 
 @media (min-width: 768px) {
 
-  .md\:grid-cols-4 {
-    grid-template-columns: repeat(4, minmax(0, 1fr));
+  .md\:flex {
+    display: flex;
+  }
+
+  .md\:w-80 {
+    width: 20rem;
+  }
+
+  .md\:pl-24 {
+    padding-left: 6rem;
+  }
+
+  .md\:pl-72 {
+    padding-left: 18rem;
   }
 }
-
-@media (min-width: 1024px) {
-
-  .lg\:grid-cols-4 {
-    grid-template-columns: repeat(4, minmax(0, 1fr));
-  }
-
-  .lg\:grid-cols-8 {
-    grid-template-columns: repeat(8, minmax(0, 1fr));
-  }
-}
-
