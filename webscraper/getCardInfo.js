@@ -1,6 +1,5 @@
 
 import puppeteer from 'puppeteer';
-import pg from 'pg';
 import { nanoid } from 'nanoid'
 
 //const puppeteer = require('puppeteer');
@@ -65,7 +64,7 @@ const getCardInfo = async () => {
 
   const page = await browser.newPage();
 
-  await page.goto('https://www.cardmarket.com/en/OnePiece/Products/Singles/Wings-of-the-Captain/Nami-ST01-007', {
+  await page.goto('https://www.cardmarket.com/en/OnePiece/Products/Singles/Kingdoms-of-Intrigue/Roronoa-Zoro-OP04-015', {
     waitUntil: 'domcontentloaded',
   });
 
@@ -140,16 +139,16 @@ const getCardInfo = async () => {
 
 getCardInfo()
   .then(cardData => {
-    console.log("ID:", cardData.cardUniqueId);
+    console.log("cardID:", cardData.cardUniqueId);
     console.log("Name:", cardData.cardName);
     console.log("Set:", cardData.cardExpansion);
     console.log("Card No.:", cardData.cardFullID);
     console.log("Price:", cardData.priceOfCard);
     console.log("Rarity:", cardData.rarity)
     console.log("Date of card price:", cardData.cardEntryDate);
-    const query = `INSERT INTO card (ID, name, set, cardno, price, rarity, datecardprice) VALUES ($1, $2, $3, $4, $5, $6, $7)`;
+    const query = `INSERT INTO card (cardID, name, set, cardno, price, rarity, datecardprice) VALUES ($1, $2, $3, $4, $5, $6, $7)`;
     const values = [cardData.cardUniqueId, cardData.cardName, cardData.cardExpansion, cardData.cardFullID, cardData.priceOfCard, cardData.rarity, cardData.cardEntryDate];
-    const url = `http://localhost:3000/api/add-card?ID=${cardData.cardUniqueId}&CardName=${cardData.cardName}&CardSet=${cardData.cardExpansion}&CardNum=${cardData.cardFullID}&Price=${cardData.priceOfCard}&Rarity=${cardData.rarity}&CardPriceDate=${cardData.cardEntryDate}`
+    const url = `http://localhost:3000/api/add-card?cardID=${cardData.cardUniqueId}&CardName=${cardData.cardName}&CardSet=${cardData.cardExpansion}&CardNum=${cardData.cardFullID}&Price=${cardData.priceOfCard}&Rarity=${cardData.rarity}&CardPriceDate=${cardData.cardEntryDate}`
     console.log(url)
     fetch(url)
     .then(response => response.json())
