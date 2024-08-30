@@ -58,9 +58,7 @@ const getCardInfo = async () => {
     headless: false,
     defaultViewport: null,
   });
-
   
-
 
   const page = await browser.newPage();
 
@@ -132,7 +130,6 @@ const getCardInfo = async () => {
   return { cardUniqueId, cardName, cardExpansion, cardFullID, priceOfCard, rarity, cardEntryDate };
   
 };
-
 
 
 // client.connect();

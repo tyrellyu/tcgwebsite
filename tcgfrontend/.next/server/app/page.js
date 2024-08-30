@@ -89,6 +89,94 @@ module.exports = require("next/dist/compiled/next-server/app-page.runtime.dev.js
 
 /***/ }),
 
+/***/ "buffer":
+/*!*************************!*\
+  !*** external "buffer" ***!
+  \*************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("buffer");
+
+/***/ }),
+
+/***/ "crypto":
+/*!*************************!*\
+  !*** external "crypto" ***!
+  \*************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("crypto");
+
+/***/ }),
+
+/***/ "events":
+/*!*************************!*\
+  !*** external "events" ***!
+  \*************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("events");
+
+/***/ }),
+
+/***/ "fs":
+/*!*********************!*\
+  !*** external "fs" ***!
+  \*********************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("fs");
+
+/***/ }),
+
+/***/ "http":
+/*!***********************!*\
+  !*** external "http" ***!
+  \***********************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("http");
+
+/***/ }),
+
+/***/ "https":
+/*!************************!*\
+  !*** external "https" ***!
+  \************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("https");
+
+/***/ }),
+
+/***/ "net":
+/*!**********************!*\
+  !*** external "net" ***!
+  \**********************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("net");
+
+/***/ }),
+
+/***/ "os":
+/*!*********************!*\
+  !*** external "os" ***!
+  \*********************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("os");
+
+/***/ }),
+
 /***/ "path":
 /*!***********************!*\
   !*** external "path" ***!
@@ -100,6 +188,28 @@ module.exports = require("path");
 
 /***/ }),
 
+/***/ "stream":
+/*!*************************!*\
+  !*** external "stream" ***!
+  \*************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("stream");
+
+/***/ }),
+
+/***/ "tls":
+/*!**********************!*\
+  !*** external "tls" ***!
+  \**********************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("tls");
+
+/***/ }),
+
 /***/ "url":
 /*!**********************!*\
   !*** external "url" ***!
@@ -108,6 +218,17 @@ module.exports = require("path");
 
 "use strict";
 module.exports = require("url");
+
+/***/ }),
+
+/***/ "zlib":
+/*!***********************!*\
+  !*** external "zlib" ***!
+  \***********************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("zlib");
 
 /***/ }),
 
@@ -225,7 +346,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (\"eabbd5946464\");\nif (false) {}\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKHJzYykvLi9hcHAvZ2xvYmFscy5jc3MiLCJtYXBwaW5ncyI6Ijs7OztBQUFBLGlFQUFlLGNBQWM7QUFDN0IsSUFBSSxLQUFVLEVBQUUsRUFBdUIiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly90Y2d3ZWJzaXRlLy4vYXBwL2dsb2JhbHMuY3NzPzE4YTAiXSwic291cmNlc0NvbnRlbnQiOlsiZXhwb3J0IGRlZmF1bHQgXCJlYWJiZDU5NDY0NjRcIlxuaWYgKG1vZHVsZS5ob3QpIHsgbW9kdWxlLmhvdC5hY2NlcHQoKSB9XG4iXSwibmFtZXMiOltdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///(rsc)/./app/globals.css\n");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (\"c96c47f750ae\");\nif (false) {}\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKHJzYykvLi9hcHAvZ2xvYmFscy5jc3MiLCJtYXBwaW5ncyI6Ijs7OztBQUFBLGlFQUFlLGNBQWM7QUFDN0IsSUFBSSxLQUFVLEVBQUUsRUFBdUIiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly90Y2d3ZWJzaXRlLy4vYXBwL2dsb2JhbHMuY3NzPzE4YTAiXSwic291cmNlc0NvbnRlbnQiOlsiZXhwb3J0IGRlZmF1bHQgXCJjOTZjNDdmNzUwYWVcIlxuaWYgKG1vZHVsZS5ob3QpIHsgbW9kdWxlLmhvdC5hY2NlcHQoKSB9XG4iXSwibmFtZXMiOltdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///(rsc)/./app/globals.css\n");
 
 /***/ }),
 
@@ -236,7 +357,18 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"(rsc)/./node_modules/next/dist/server/future/route-modules/app-page/vendored/rsc/react-jsx-dev-runtime.js\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n\nconst Dashboard = ()=>{\n    return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n        children: \"Dashboard\"\n    }, void 0, false, {\n        fileName: \"/Users/tyrellyu/Dev/projects/tcgwebsite/tcgfrontend/app/dashboard/page.tsx\",\n        lineNumber: 4,\n        columnNumber: 5\n    }, undefined);\n};\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Dashboard);\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKHJzYykvLi9hcHAvZGFzaGJvYXJkL3BhZ2UudHN4IiwibWFwcGluZ3MiOiI7Ozs7Ozs7QUFDQSxNQUFNQSxZQUFZO0lBQ2hCLHFCQUNFLDhEQUFDQztrQkFBSTs7Ozs7O0FBRVQ7QUFFQSxpRUFBZUQsU0FBU0EsRUFBQSIsInNvdXJjZXMiOlsid2VicGFjazovL3RjZ3dlYnNpdGUvLi9hcHAvZGFzaGJvYXJkL3BhZ2UudHN4P2QxMjUiXSwic291cmNlc0NvbnRlbnQiOlsiXG5jb25zdCBEYXNoYm9hcmQgPSAoKSA9PiB7XG4gIHJldHVybiAoXG4gICAgPGRpdj5EYXNoYm9hcmQ8L2Rpdj5cbiAgKVxufVxuXG5leHBvcnQgZGVmYXVsdCBEYXNoYm9hcmQiXSwibmFtZXMiOlsiRGFzaGJvYXJkIiwiZGl2Il0sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///(rsc)/./app/dashboard/page.tsx\n");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"(rsc)/./node_modules/next/dist/server/future/route-modules/app-page/vendored/rsc/react-jsx-dev-runtime.js\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _server__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./server */ \"(rsc)/./app/dashboard/server.tsx\");\n\n\nconst Dashboard = ()=>{\n    return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n        className: \"grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 xl:overflow-auto gap-10 pb-4 custom-grid-rows\",\n        children: [\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                className: \"row-span-3 xl:row-span-6 bg-gray-500\",\n                children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_server__WEBPACK_IMPORTED_MODULE_1__.AllCards, {}, void 0, false, {\n                    fileName: \"/Users/tyrellyu/Dev/projects/tcgwebsite/tcgfrontend/app/dashboard/page.tsx\",\n                    lineNumber: 8,\n                    columnNumber: 61\n                }, undefined)\n            }, void 0, false, {\n                fileName: \"/Users/tyrellyu/Dev/projects/tcgwebsite/tcgfrontend/app/dashboard/page.tsx\",\n                lineNumber: 8,\n                columnNumber: 7\n            }, undefined),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                className: \"row-span-3 xl:row-span-6 bg-gray-500\"\n            }, void 0, false, {\n                fileName: \"/Users/tyrellyu/Dev/projects/tcgwebsite/tcgfrontend/app/dashboard/page.tsx\",\n                lineNumber: 10,\n                columnNumber: 7\n            }, undefined),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                className: \"row-span-3 xl:row-span-6 bg-gray-500\"\n            }, void 0, false, {\n                fileName: \"/Users/tyrellyu/Dev/projects/tcgwebsite/tcgfrontend/app/dashboard/page.tsx\",\n                lineNumber: 11,\n                columnNumber: 7\n            }, undefined)\n        ]\n    }, void 0, true, {\n        fileName: \"/Users/tyrellyu/Dev/projects/tcgwebsite/tcgfrontend/app/dashboard/page.tsx\",\n        lineNumber: 6,\n        columnNumber: 5\n    }, undefined);\n};\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Dashboard);\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKHJzYykvLi9hcHAvZGFzaGJvYXJkL3BhZ2UudHN4IiwibWFwcGluZ3MiOiI7Ozs7Ozs7O0FBQ21DO0FBRW5DLE1BQU1DLFlBQVk7SUFDaEIscUJBQ0UsOERBQUNDO1FBQUlDLFdBQVU7OzBCQUViLDhEQUFDRDtnQkFBSUMsV0FBVTswQkFBdUMsNEVBQUNILDZDQUFRQTs7Ozs7Ozs7OzswQkFFL0QsOERBQUNFO2dCQUFJQyxXQUFVOzs7Ozs7MEJBQ2YsOERBQUNEO2dCQUFJQyxXQUFVOzs7Ozs7Ozs7Ozs7QUFTckI7QUFFQSxpRUFBZUYsU0FBU0EsRUFBQSIsInNvdXJjZXMiOlsid2VicGFjazovL3RjZ3dlYnNpdGUvLi9hcHAvZGFzaGJvYXJkL3BhZ2UudHN4P2QxMjUiXSwic291cmNlc0NvbnRlbnQiOlsiXG5pbXBvcnQgeyBBbGxDYXJkcyB9IGZyb20gXCIuL3NlcnZlclwiXG5cbmNvbnN0IERhc2hib2FyZCA9ICgpID0+IHtcbiAgcmV0dXJuIChcbiAgICA8ZGl2IGNsYXNzTmFtZT1cImdyaWQgZ3JpZC1jb2xzLTEgbWQ6Z3JpZC1jb2xzLTIgeGw6Z3JpZC1jb2xzLTMgeGw6b3ZlcmZsb3ctYXV0byBnYXAtMTAgcGItNCBjdXN0b20tZ3JpZC1yb3dzXCJcbiAgICAgPiBcbiAgICAgIDxkaXYgY2xhc3NOYW1lPVwicm93LXNwYW4tMyB4bDpyb3ctc3Bhbi02IGJnLWdyYXktNTAwXCI+PEFsbENhcmRzPjwvQWxsQ2FyZHM+IFxuICAgICAgPC9kaXY+XG4gICAgICA8ZGl2IGNsYXNzTmFtZT1cInJvdy1zcGFuLTMgeGw6cm93LXNwYW4tNiBiZy1ncmF5LTUwMFwiIC8+XG4gICAgICA8ZGl2IGNsYXNzTmFtZT1cInJvdy1zcGFuLTMgeGw6cm93LXNwYW4tNiBiZy1ncmF5LTUwMFwiIC8+XG4gICAgICB7LyogPGRpdiBjbGFzc05hbWU9XCJyb3ctc3Bhbi0yIHhsOnJvdy1zcGFuLTMgY29sLXNwYW4tMSBtZDpjb2wtc3Bhbi0yIHhsOmNvbC1zcGFuLTEgYmctZ3JheS01MDBcIiAvPlxuICAgICAgPGRpdiBjbGFzc05hbWU9XCJyb3ctc3Bhbi0zIGJnLWdyYXktNTAwXCIgLz5cbiAgICAgIDxkaXYgY2xhc3NOYW1lPVwicm93LXNwYW4tMyB4bDpyb3ctc3Bhbi02IGJnLWdyYXktNTAwXCIgLz4gXG4gICAgICA8ZGl2IGNsYXNzTmFtZT1cIm1kOiByb3ctc3Bhbi0xIHhsOnJvdy1zcGFuLTIgYmctZ3JheS01MDBcIiAvPlxuICAgICAgPGRpdiBjbGFzc05hbWU9XCJtZDogcm93LXNwYW4tMSB4bDpyb3ctc3Bhbi0yIGJnLWdyYXktNTAwXCIgLz5cbiAgICAgIDxkaXYgY2xhc3NOYW1lPVwibWQ6IHJvdy1zcGFuLTEgeGw6cm93LXNwYW4tMiBiZy1ncmF5LTUwMFwiIC8+ICovfVxuICAgIDwvZGl2PlxuICApXG59XG5cbmV4cG9ydCBkZWZhdWx0IERhc2hib2FyZCJdLCJuYW1lcyI6WyJBbGxDYXJkcyIsIkRhc2hib2FyZCIsImRpdiIsImNsYXNzTmFtZSJdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///(rsc)/./app/dashboard/page.tsx\n");
+
+/***/ }),
+
+/***/ "(rsc)/./app/dashboard/server.tsx":
+/*!**********************************!*\
+  !*** ./app/dashboard/server.tsx ***!
+  \**********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   AllCards: () => (/* binding */ AllCards)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"(rsc)/./node_modules/next/dist/server/future/route-modules/app-page/vendored/rsc/react-jsx-dev-runtime.js\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _vercel_postgres__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @vercel/postgres */ \"(rsc)/./node_modules/@vercel/postgres/dist/index-node.js\");\n\n\nconst AllCards = async ()=>{\n    const cards = await (0,_vercel_postgres__WEBPACK_IMPORTED_MODULE_1__.sql)`SELECT * FROM cards`;\n    const myJSON = JSON.stringify(cards);\n    return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n        children: cards.rows?.map((card)=>/*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                children: [\n                    card.cardnum,\n                    card.cardname,\n                    card.cardset,\n                    card.price\n                ]\n            }, card.cardnum, true, {\n                fileName: \"/Users/tyrellyu/Dev/projects/tcgwebsite/tcgfrontend/app/dashboard/server.tsx\",\n                lineNumber: 12,\n                columnNumber: 9\n            }, undefined))\n    }, void 0, false, {\n        fileName: \"/Users/tyrellyu/Dev/projects/tcgwebsite/tcgfrontend/app/dashboard/server.tsx\",\n        lineNumber: 10,\n        columnNumber: 5\n    }, undefined);\n};\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKHJzYykvLi9hcHAvZGFzaGJvYXJkL3NlcnZlci50c3giLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7QUFDdUM7QUFHaEMsTUFBTUMsV0FBVztJQUN0QixNQUFNQyxRQUFRLE1BQU1GLHFEQUFHLENBQUMsbUJBQW1CLENBQUM7SUFDNUMsTUFBTUcsU0FBU0MsS0FBS0MsU0FBUyxDQUFDSDtJQUU5QixxQkFDRSw4REFBQ0k7a0JBQ0VKLE1BQU1LLElBQUksRUFBRUMsSUFBSSxDQUFDQyxxQkFDaEIsOERBQUNIOztvQkFDRUcsS0FBS0MsT0FBTztvQkFDWkQsS0FBS0UsUUFBUTtvQkFDYkYsS0FBS0csT0FBTztvQkFDWkgsS0FBS0ksS0FBSzs7ZUFKSEosS0FBS0MsT0FBTzs7Ozs7Ozs7OztBQVU5QixFQUFFIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vdGNnd2Vic2l0ZS8uL2FwcC9kYXNoYm9hcmQvc2VydmVyLnRzeD8zYWNkIl0sInNvdXJjZXNDb250ZW50IjpbIlxuaW1wb3J0IHsgc3FsIH0gZnJvbSBcIkB2ZXJjZWwvcG9zdGdyZXNcIjtcblxuXG5leHBvcnQgY29uc3QgQWxsQ2FyZHMgPSBhc3luYyAoKSA9PiB7XG4gIGNvbnN0IGNhcmRzID0gYXdhaXQgc3FsYFNFTEVDVCAqIEZST00gY2FyZHNgO1xuICBjb25zdCBteUpTT04gPSBKU09OLnN0cmluZ2lmeShjYXJkcyk7XG5cbiAgcmV0dXJuIChcbiAgICA8ZGl2PlxuICAgICAge2NhcmRzLnJvd3M/Lm1hcCgoY2FyZCkgPT4gKFxuICAgICAgICA8ZGl2IGtleT17Y2FyZC5jYXJkbnVtfT5cbiAgICAgICAgICB7Y2FyZC5jYXJkbnVtfVxuICAgICAgICAgIHtjYXJkLmNhcmRuYW1lfVxuICAgICAgICAgIHtjYXJkLmNhcmRzZXR9XG4gICAgICAgICAge2NhcmQucHJpY2V9XG5cbiAgICAgICAgPC9kaXY+XG4gICAgICApKX1cbiAgICA8L2Rpdj5cbiAgKTtcbn07XG5cblxuXG5cblxuIl0sIm5hbWVzIjpbInNxbCIsIkFsbENhcmRzIiwiY2FyZHMiLCJteUpTT04iLCJKU09OIiwic3RyaW5naWZ5IiwiZGl2Iiwicm93cyIsIm1hcCIsImNhcmQiLCJjYXJkbnVtIiwiY2FyZG5hbWUiLCJjYXJkc2V0IiwicHJpY2UiXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///(rsc)/./app/dashboard/server.tsx\n");
 
 /***/ }),
 
@@ -309,7 +441,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 var __webpack_require__ = require("../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, ["vendor-chunks/next","vendor-chunks/@reduxjs","vendor-chunks/react-redux","vendor-chunks/immer","vendor-chunks/redux-persist","vendor-chunks/reselect","vendor-chunks/redux","vendor-chunks/lucide-react","vendor-chunks/use-sync-external-store","vendor-chunks/@swc","vendor-chunks/redux-thunk"], () => (__webpack_exec__("(rsc)/./node_modules/next/dist/build/webpack/loaders/next-app-loader.js?name=app%2Fpage&page=%2Fpage&appPaths=%2Fpage&pagePath=private-next-app-dir%2Fpage.tsx&appDir=%2FUsers%2Ftyrellyu%2FDev%2Fprojects%2Ftcgwebsite%2Ftcgfrontend%2Fapp&pageExtensions=tsx&pageExtensions=ts&pageExtensions=jsx&pageExtensions=js&rootDir=%2FUsers%2Ftyrellyu%2FDev%2Fprojects%2Ftcgwebsite%2Ftcgfrontend&isDev=true&tsconfigPath=tsconfig.json&basePath=&assetPrefix=&nextConfigOutput=&preferredRegion=&middlewareConfig=e30%3D!")));
+var __webpack_exports__ = __webpack_require__.X(0, ["vendor-chunks/next","vendor-chunks/@swc","vendor-chunks/@reduxjs","vendor-chunks/@neondatabase","vendor-chunks/ws","vendor-chunks/react-redux","vendor-chunks/immer","vendor-chunks/redux-persist","vendor-chunks/reselect","vendor-chunks/redux","vendor-chunks/lucide-react","vendor-chunks/@vercel","vendor-chunks/node-gyp-build","vendor-chunks/use-sync-external-store","vendor-chunks/utf-8-validate","vendor-chunks/bufferutil","vendor-chunks/redux-thunk"], () => (__webpack_exec__("(rsc)/./node_modules/next/dist/build/webpack/loaders/next-app-loader.js?name=app%2Fpage&page=%2Fpage&appPaths=%2Fpage&pagePath=private-next-app-dir%2Fpage.tsx&appDir=%2FUsers%2Ftyrellyu%2FDev%2Fprojects%2Ftcgwebsite%2Ftcgfrontend%2Fapp&pageExtensions=tsx&pageExtensions=ts&pageExtensions=jsx&pageExtensions=js&rootDir=%2FUsers%2Ftyrellyu%2FDev%2Fprojects%2Ftcgwebsite%2Ftcgfrontend&isDev=true&tsconfigPath=tsconfig.json&basePath=&assetPrefix=&nextConfigOutput=&preferredRegion=&middlewareConfig=e30%3D!")));
 module.exports = __webpack_exports__;
 
 })();
