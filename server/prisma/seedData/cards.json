@@ -1,0 +1,341 @@
+[
+
+    {
+        "cardId": "d35623ee-bef6-42b2-8776-2f99f8bb4782",
+        "name": "Roronoa Zoro",
+        "num": "OP01-001",
+        "set": "Romance Dawn",
+        "price": 26,
+        "rarity": "Leader" ,
+        "quantity": 5
+      },
+
+
+    {
+        "cardId": "8ac1ac77-7358-425e-be16-0bdde9f02e59",
+        "name": "Roronoa Zoro",
+        "num": "OP01-001",
+        "set": "Romance Dawn",
+        "price": 19950,
+        "rarity": "Alternative Art" ,
+        "quantity": 2
+      },
+
+    {
+        "cardId": "1afc136b-4d9f-4e8e-aace-8e1df908a404",
+        "name": "Trafalgar Law",
+        "num": "OP01-002",
+        "set": "Romance Dawn",
+        "price": 6,
+        "rarity": "Leader" ,
+        "quantity": 3
+      },
+
+    {
+        "cardId": "af84cc12-4fea-4f58-aece-f2ce92ca9580",
+        "name": "Trafalgar Law",
+        "num": "OP01-002",
+        "set": "Romance Dawn",
+        "price": 16900,
+        "rarity": "Alternative Art" ,
+        "quantity": 1
+      },
+
+    {
+        "cardId": "86e3bb1c-2f5d-4774-98f3-4df7cddd0a0f",
+        "name": "Monkey.D.Luffy",
+        "num": "OP01-003",
+        "set": "Romance Dawn",
+        "price": 5,
+        "rarity": "Leader" ,
+        "quantity": 1
+      },
+
+    {
+        "cardId": "26b017c6-06d8-443f-9b4a-d6b1cee6f4c0",
+        "name": "Monkey.D.Luffy",
+        "num": "OP01-003",
+        "set": "Romance Dawn",
+        "price": 12500,
+        "rarity": "Alternative Art" ,
+        "quantity": 1
+      },
+
+    {
+        "cardId": "440c9e80-6bf8-4eb3-b2d2-f81936d67de3",
+        "name": "Usopp",
+        "num": "OP01-004",
+        "set": "Romance Dawn",
+        "price": 25,
+        "rarity": "Rare" ,
+        "quantity": 8
+      },
+
+    {
+        "cardId": "98255f4e-40a6-470f-89a5-0792729f8947",
+        "name": "Uta",
+        "num": "OP01-005",
+        "set": "Romance Dawn",
+        "price": 16,
+        "rarity": "Rare" ,
+        "quantity": 10
+    },
+
+    {
+        "cardId": "2a339fb2-f9f3-43bc-a85a-b217a0a38f12",
+        "name": "Otama",
+        "num": "OP01-006",
+        "set": "Romance Dawn",
+        "price": 143,
+        "rarity": "Uncommon" ,
+        "quantity": 4
+    },
+
+    {
+      "cardId": "8a8391b2-b4ac-4847-b652-66ffd8d65875",
+      "name": "Caribou",
+      "num": "OP01-007",
+      "set": "Romance Dawn",
+      "price": 2,
+      "rarity": "Common" ,
+      "quantity": 10
+    },
+
+    {
+      "cardId": "be2157fb-7454-405e-9511-bf7ba81b7726",
+      "name": "Cavendish",
+      "num": "OP01-008",
+      "set": "Romance Dawn",
+      "price": 2,
+      "rarity": "Common" ,
+      "quantity": 3
+    },
+
+    {
+      "cardId": "fdf1ba3d-fa06-4ce5-90ff-d081c5d37176",
+      "name": "Boa Hancock",
+      "num": "OP01-078",
+      "set": "Romance Dawn",
+      "price": 3650,
+      "rarity": "Alternative Art" ,
+      "quantity": 2
+    },
+    {
+      "cardId": "afded6df-058f-477d-9878-e0e0b1d3dff3",
+      "name": "Cavendish",
+      "num": "OP01-008",
+      "set": "Romance Dawn",
+      "price": 110,
+      "rarity": "Alternative Art" ,
+      "quantity": 1
+    },
+    {
+      "cardId": "daa29167-82a7-474b-9687-b8b903e7ec69",
+      "name": "Carrot",
+      "num": "OP01-009",
+      "set": "Romance Dawn",
+      "price": 4,
+      "rarity": "Common" ,
+      "quantity": 4
+    },
+    {
+      "cardId": "ccb83982-71f3-4497-bad8-7e64c6920dc6",
+      "name": "Komachiyo",
+      "num": "OP01-010",
+      "set": "Romance Dawn",
+      "price": 2,
+      "rarity": "Common" ,
+      "quantity": 4
+    },
+    {
+      "cardId": "1936d406-e89e-40e4-bff7-1827532269d4",
+      "name": "Gordon",
+      "num": "OP01-011",
+      "set": "Romance Dawn",
+      "price": 4,
+      "rarity": "Uncommon" ,
+      "quantity": 4
+    },
+    {
+      "cardId": "c849a535-5f8b-47e3-889c-015693a644ac",
+      "name": "Sai",
+      "num": "OP01-012",
+      "set": "Romance Dawn",
+      "price": 2,
+      "rarity": "Common" ,
+      "quantity": 4
+    },
+    {
+      "cardId": "0c3e80ee-59b3-4fc4-b760-8b07acc2d3ae",
+      "name": "Sanji",
+      "num": "OP01-013",
+      "set": "Romance Dawn",
+      "price": 99,
+      "rarity": "Rare" ,
+      "quantity": 2
+    },
+    {
+      "cardId": "d8f5bee3-f3eb-4071-a124-6b857e0fd798",
+      "name": "Sanji",
+      "num": "OP01-013",
+      "set": "Romance Dawn",
+      "price": 2596,
+      "rarity": "Alternative Art" ,
+      "quantity": 2
+    },
+    {
+      "cardId": "8d15de86-0e4a-4414-9166-7a33610202d3",
+      "name": "Jinbel",
+      "num": "OP01-014",
+      "set": "Romance Dawn",
+      "price": 2,
+      "rarity": "Uncommon" ,
+      "quantity": 4
+    },
+    {
+      "cardId": "ea8fd0b9-c2d9-4d43-9c23-44cb99d079bb",
+      "name": "Tony Tony.Chopper",
+      "num": "OP01-015",
+      "set": "Romance Dawn",
+      "price": 12,
+      "rarity": "Uncommon" ,
+      "quantity": 4
+    },
+    {
+      "cardId": "25d01c80-bca1-4a00-b1d0-0fbd39ff9e89",
+      "name": "Nami",
+      "num": "OP01-016",
+      "set": "Romance Dawn",
+      "price": 25,
+      "rarity": "Rare" ,
+      "quantity": 8
+    },
+    {
+      "cardId": "1d6df6e3-b7ea-4507-9d66-87c6ee8ed5b9",
+      "name": "Nami",
+      "num": "OP01-016",
+      "set": "Romance Dawn",
+      "price": 11667,
+      "rarity": "Alternative Art" ,
+      "quantity": 4
+    },
+    {
+      "cardId": "000a8c23-5bca-436c-a216-4e747a94c511",
+      "name": "Nico Robin",
+      "num": "OP01-017",
+      "set": "Romance Dawn",
+      "price": 17,
+      "rarity": "Rare" ,
+      "quantity": 4
+    },
+    {
+      "cardId": "c5b600dc-6bfb-492a-b335-c3cc8c707959",
+      "name": "Hajrudin",
+      "num": "OP01-018",
+      "set": "Romance Dawn",
+      "price": 2,
+      "rarity": "Common" ,
+      "quantity": 5
+    },
+    {
+      "cardId": "9d5fafbc-312b-47e8-ada1-283918f0c3b5",
+      "name": "Bartolomeo",
+      "num": "OP01-019",
+      "set": "Romance Dawn",
+      "price": 8,
+      "rarity": "Common" ,
+      "quantity": 5
+    },
+    {
+      "cardId": "0114d5d4-ae48-46fa-b0ca-afe60eb88add",
+      "name": "Hyogoro",
+      "num": "OP01-020",
+      "set": "Romance Dawn",
+      "price": 2,
+      "rarity": "Common" ,
+      "quantity": 2
+    },
+    {
+      "cardId": "e5b0da8c-148d-4680-b262-8609fb8a10da",
+      "name": "Franky",
+      "num": "OP01-021",
+      "set": "Romance Dawn",
+      "price": 2,
+      "rarity": "Uncommon" ,
+      "quantity": 4
+    },
+    {
+      "cardId": "2be5b024-2c96-4f29-912c-c6f36353f799",
+      "name": "Brook",
+      "num": "OP01-022",
+      "set": "Romance Dawn",
+      "price": 20,
+      "rarity": "Uncommon" ,
+      "quantity": 4
+    },
+    {
+      "cardId": "fcf2e432-62a3-4b6f-a34d-36e42a12272e",
+      "name": "Marco",
+      "num": "OP01-023",
+      "set": "Romance Dawn",
+      "price": 2,
+      "rarity": "Common" ,
+      "quantity": 2
+    },
+    {
+      "cardId": "fc4c81e5-f1ac-40f5-8c6f-da3fbad5599d",
+      "name": "Monkey.D.Luffy",
+      "num": "OP01-024",
+      "set": "Romance Dawn",
+      "price": 196,
+      "rarity": "Super Rare" ,
+      "quantity": 4
+    },
+    {
+      "cardId": "07238d8e-0037-4972-87ca-0df206ee3e42",
+      "name": "Monkey.D.Luffy",
+      "num": "OP01-024",
+      "set": "Romance Dawn",
+      "price": 2162,
+      "rarity": "Alternative Art" ,
+      "quantity": 1
+    },
+    {
+      "cardId": "154b7860-23a2-4564-ad99-1745ab7122ef",
+      "name": "Roronoa Zoro",
+      "num": "OP01-025",
+      "set": "Romance Dawn",
+      "price": 140,
+      "rarity": "Super Rare" ,
+      "quantity": 4
+    },
+    {
+      "cardId": "8d4bf814-65d4-4df4-84cc-68911d925fdf",
+      "name": "Roronoa Zoro",
+      "num": "OP01-025",
+      "set": "Romance Dawn",
+      "price": 6799,
+      "rarity": "Alternative Art" ,
+      "quantity": 2
+    },
+
+    {
+        "cardId": "97f3e89d-621b-475f-898c-543210987654",
+        "name": "Shanks",
+        "num": "OP01-120",
+        "set": "Romance Dawn",
+        "price": 638,
+        "rarity": "Secret Rare" ,
+        "quantity": 3
+      },
+
+    {
+      "cardId": "a52bf1bd-3d35-4cd2-849a-354e3952e2d2",
+      "name": "Shanks",
+      "num": "OP01-120",
+      "set": "Romance Dawn",
+      "price": 61000,
+      "rarity": "Manga Rare" ,
+      "quantity": 1
+    }
+  ]

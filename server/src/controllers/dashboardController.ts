@@ -8,49 +8,49 @@ export const getDashboardMetrics = async (
     res: Response
 ): Promise<void> => {
     try {
-        const popularProducts = await prisma.products.findMany({
+        const popularCards = await prisma.cards.findMany({
             take: 15,
             orderBy: {
-                stockQuantity: "desc",
+                quantity: "desc", 
             },
-        })
-        const saleSummary = await prisma.salesSummary.findMany({
+        });
+        const soldCardSummary = await prisma.soldCardSummary.findMany({
             take: 5,
             orderBy: {
                 date: "desc",
             },
         })
 
-        const purchaseSummary = await prisma.purchaseSummary.findMany({
+        const boughtCardSummary = await prisma.boughtCardSummary.findMany({
             take: 5,
             orderBy: {
                 date: "desc",
             },
         })
-        const expenseSummary = await prisma.expenseSummary.findMany({
+        const collectionSummary = await prisma.collectionSummary.findMany({
             take: 5,
             orderBy: {
                 date: "desc",
             },
         })
-            const expenseByCatergorySummaryRaw = await prisma.expenseByCategory.findMany({
+            const collectionByCategoryRaw = await prisma.collectionByCategory.findMany({
                 take: 5,
                 orderBy: {
                     date: "desc",
                 },
             })
-            const expenseByCatergorySummary = expenseByCatergorySummaryRaw.map(
+            const collectionByCategory = collectionByCategoryRaw.map(
                 (item) => ({
                     ...item,
                     amount: item.amount.toString()
                 }));
 
                 res.json({
-                    popularProducts,
-                    saleSummary,
-                    purchaseSummary,
-                    expenseSummary,
-                    expenseByCatergorySummary,
+                    popularCards,
+                    soldCardSummary,
+                    boughtCardSummary,
+                    collectionSummary,
+                    collectionByCategory,
                 })
     } catch (error) {
         res.status(500).json({message: "Error retrieving dasboard metrics" })

@@ -20,70 +20,73 @@ model Users {
   email  String
 }
 
-model Products {
-  productId     String      @id
+model Cards {
+  cardId        String      @id
   name          String
-  price         Float
-  rating        Float?
-  stockQuantity Int
-  Sales         Sales[]
-  Purchases     Purchases[]
+  num           String
+  set           String
+  price         Int
+  rarity        String
+  quantity      Int
+  soldCards      SoldCards[]
+  boughtCards    BoughtCards[]
 }
 
-model Sales {
+
+model SoldCards {
   saleId      String   @id
-  productId   String
-  timestamp   DateTime
+  cardId      String
+  dateSold    DateTime
   quantity    Int
-  unitPrice   Float
-  totalAmount Float
-  product     Products @relation(fields: [productId], references: [productId])
+  cardPrice   Int
+  totalAmount Int
+  card        Cards @relation(fields: [cardId], references: [cardId])
 }
 
-model Purchases {
-  purchaseId String   @id
-  productId  String
-  timestamp  DateTime
-  quantity   Int
-  unitCost   Float
-  totalCost  Float
-  product    Products @relation(fields: [productId], references: [productId])
+model BoughtCards {
+  purchaseId    String   @id
+  cardId        String
+  purchaseDate  DateTime
+  quantity      Int
+  cardCost      Int
+  totalCost     Int
+  card       Cards @relation(fields: [cardId], references: [cardId])
 }
 
-model Expenses {
-  expenseId String   @id
+model Collection {
+  collectionId String   @id
   category  String
   amount    Float
   timestamp DateTime
 }
 
-model SalesSummary {
-  salesSummaryId   String   @id
-  totalValue       Float
-  changePercentage Float?
-  date             DateTime
-}
-
-model PurchaseSummary {
-  purchaseSummaryId String   @id
-  totalPurchased    Float
-  changePercentage  Float?
-  date              DateTime
-}
-
-model ExpenseSummary {
-  expenseSummaryId  String              @id
-  totalExpenses     Float
-  date              DateTime
-  ExpenseByCategory ExpenseByCategory[]
-}
-
-model ExpenseByCategory {
-  expenseByCategoryId String         @id
-  expenseSummaryId    String
-  category            String
-  amount              BigInt
+model SoldCardSummary {
+  soldCardSummaryId   String   @id
+  totalValue          Float
+  changePercentage    Float?
   date                DateTime
-  expenseSummary      ExpenseSummary @relation(fields: [expenseSummaryId], references: [expenseSummaryId])
+}
+
+model BoughtCardSummary {
+  boughtCardSummaryId String   @id
+  totalPurchased      Float
+  changePercentage    Float?
+  date                DateTime
+}
+
+model CollectionSummary {
+  collectionSummaryId  String   @id
+  totalExpenses        Float
+  date                 DateTime
+  CollectionByCategory CollectionByCategory[]
+}
+
+model CollectionByCategory {
+  collectionByCategoryId String         @id
+  collectionSummaryId    String
+  category               String
+  amount                 BigInt
+  date                   DateTime
+  collectionSummary     CollectionSummary @relation(fields: [collectionSummaryId], references: [collectionSummaryId])
 }
 

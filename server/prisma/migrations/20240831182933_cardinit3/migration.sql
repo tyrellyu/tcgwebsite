@@ -1,0 +1,18 @@
+/*
+  Warnings:
+
+  - You are about to drop the `Collection` table. If the table is not empty, all the data it contains will be lost.
+
+*/
+-- DropTable
+DROP TABLE "Collection";
+
+-- CreateTable
+CREATE TABLE "Collections" (
+    "collectionId" TEXT NOT NULL,
+    "category" TEXT NOT NULL,
+    "amount" DOUBLE PRECISION NOT NULL,
+    "timestamp" TIMESTAMP(3) NOT NULL,
+
+    CONSTRAINT "Collections_pkey" PRIMARY KEY ("collectionId")
+);

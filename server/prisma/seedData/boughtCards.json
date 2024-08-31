@@ -1,0 +1,822 @@
+[
+    {
+      "purchaseId": "5035f91e-4a29-411a-8779-17f6105675f1",
+      "cardId": "d35623ee-bef6-42b2-8776-2f99f8bb4782",
+      "purchaseDate": "2022-09-28T13:56:51Z",
+      "quantity": 1,
+      "cardCost": 10,
+      "totalCost": 10
+    },
+    {
+        "purchaseId": "77f3e89d-621b-475f-898c-543210987654",
+        "cardId": "97f3e89d-621b-475f-898c-543210987654",
+        "purchaseDate": "2022-03-08T16:20:29Z",
+        "quantity": 2,
+        "cardCost": 500,
+        "totalCost": 1000
+      },
+
+    {
+      "purchaseId": "85841cb5-2132-40f2-b923-9769ee3c199b",
+      "cardId": "8ac1ac77-7358-425e-be16-0bdde9f02e59",
+      "purchaseDate": "2022-02-01T13:04:43Z",
+      "quantity": 1,
+      "cardCost": 19000,
+      "totalCost": 19000
+    },
+    {
+      "purchaseId": "de384851-f898-4495-99b8-73448bb470bf",
+      "cardId": "1afc136b-4d9f-4e8e-aace-8e1df908a404",
+      "purchaseDate": "2022-10-22T19:38:20Z",
+      "quantity": 3,
+      "cardCost": 4,
+      "totalCost": 12
+    },
+    {
+      "purchaseId": "e0b0486c-6396-42b7-9a84-e21bd3a88600",
+      "cardId": "af84cc12-4fea-4f58-aece-f2ce92ca9580",
+      "purchaseDate": "2022-01-25T13:30:58Z",
+      "quantity": 2,
+      "cardCost": 15000,
+      "totalCost": 30000
+    },
+    {
+      "purchaseId": "822e6025-e582-4e8c-b143-dc5ebad4c18c",
+      "cardId": "86e3bb1c-2f5d-4774-98f3-4df7cddd0a0f",
+      "purchaseDate": "2022-12-30T12:54:41Z",
+      "quantity": 2,
+      "cardCost": 5,
+      "totalCost": 10
+    },
+    {
+      "purchaseId": "dd6d3a14-92d5-40f4-9bf4-92fb4043882c",
+      "cardId": "26b017c6-06d8-443f-9b4a-d6b1cee6f4c0",
+      "purchaseDate": "2022-02-26T01:13:31Z",
+      "quantity": 1,
+      "cardCost": 12500,
+      "totalCost": 12500
+    },
+    {
+      "purchaseId": "434e5415-cb23-4170-b1e7-bc85737dc8c7",
+      "cardId": "440c9e80-6bf8-4eb3-b2d2-f81936d67de3",
+      "purchaseDate": "2022-11-18T23:49:33Z",
+      "quantity": 1,
+      "cardCost": 20,
+      "totalCost": 20
+    },
+    {
+      "purchaseId": "963a92ab-e092-4f3d-8b6a-5ab803550d78",
+      "cardId": "98255f4e-40a6-470f-89a5-0792729f8947",
+      "purchaseDate": "2022-04-27T08:53:44Z",
+      "quantity": 2,
+      "cardCost": 15,
+      "totalCost": 30
+    },
+    {
+      "purchaseId": "b4aebfdc-bce9-4e90-89fc-5098447d687a",
+      "cardId": "2a339fb2-f9f3-43bc-a85a-b217a0a38f12",
+      "purchaseDate": "2022-02-05T13:02:55Z",
+      "quantity": 3,
+      "cardCost": 150,
+      "totalCost": 450
+    },
+    {
+      "purchaseId": "de2ba6a2-c291-4a60-aad1-23d5749c5847",
+      "cardId": "8a8391b2-b4ac-4847-b652-66ffd8d65875",
+      "purchaseDate": "2022-05-07T16:41:13Z",
+      "quantity": 1,
+      "cardCost": 1,
+      "totalCost": 1
+    },
+    {
+      "purchaseId": "78ea5f20-8fcc-4b6c-836f-e4b7a58d7479",
+      "cardId": "be2157fb-7454-405e-9511-bf7ba81b7726",
+      "purchaseDate": "2022-08-12T16:37:41Z",
+      "quantity": 3,
+      "cardCost": 2,
+      "totalCost": 6
+    },
+    {
+      "purchaseId": "61ba57e9-81fe-4d04-85b5-6aab219ced9d",
+      "cardId": "fdf1ba3d-fa06-4ce5-90ff-d081c5d37176",
+      "purchaseDate": "2022-12-07T16:18:59Z",
+      "quantity": 2,
+      "cardCost": 2500,
+      "totalCost": 5000
+    },
+    {
+      "purchaseId": "012d028b-4d6b-43bf-8d69-edf296133c9e",
+      "cardId": "afded6df-058f-477d-9878-e0e0b1d3dff3",
+      "purchaseDate": "2022-12-29T10:50:55Z",
+      "quantity": 1,
+      "cardCost": 100,
+      "totalCost": 100
+    },
+    {
+      "purchaseId": "8155b76c-3da2-4fb4-ba18-68bf8a2cec1b",
+      "cardId": "daa29167-82a7-474b-9687-b8b903e7ec69",
+      "purchaseDate": "2022-08-15T18:41:49Z",
+      "quantity": 2,
+      "cardCost": 4,
+      "totalCost": 8
+    },
+    {
+      "purchaseId": "4d449c76-ee8a-473e-8135-f74875a31964",
+      "cardId": "ccb83982-71f3-4497-bad8-7e64c6920dc6",
+      "purchaseDate": "2022-12-05T06:28:48Z",
+      "quantity": 1,
+      "cardCost": 2,
+      "totalCost": 2
+    },
+    {
+      "purchaseId": "115c6e6c-e6d0-418f-990e-1730f9e4b02e",
+      "cardId": "1936d406-e89e-40e4-bff7-1827532269d4",
+      "purchaseDate": "2022-12-17T12:52:02Z",
+      "quantity": 1,
+      "cardCost": 4,
+      "totalCost": 4
+    },
+    {
+      "purchaseId": "7b898dfe-79e0-472c-a19e-d75d6a2719fd",
+      "cardId": "c849a535-5f8b-47e3-889c-015693a644ac",
+      "purchaseDate": "2022-05-13T17:09:07Z",
+      "quantity": 2,
+      "cardCost": 2,
+      "totalCost": 4
+    },
+    {
+      "purchaseId": "cb3000e8-df2e-4e8b-99ed-4ceb35077404",
+      "cardId": "0c3e80ee-59b3-4fc4-b760-8b07acc2d3ae",
+      "purchaseDate": "2022-10-21T15:28:13Z",
+      "quantity": 1,
+      "cardCost": 99,
+      "totalCost": 99
+    },
+    {
+      "purchaseId": "8b709837-e51b-493a-8720-89e64f9888e2",
+      "cardId": "d8f5bee3-f3eb-4071-a124-6b857e0fd798",
+      "purchaseDate": "2022-08-23T21:20:02Z",
+      "quantity": 1,
+      "cardCost": 2500,
+      "totalCost": 2500
+    },
+    {
+      "purchaseId": "8ee49368-1e96-41ed-bc53-7ba90ed537a4",
+      "cardId": "8d15de86-0e4a-4414-9166-7a33610202d3",
+      "purchaseDate": "2022-09-09T02:34:59Z",
+      "quantity": 4,
+      "cardCost": 2,
+      "totalCost": 8
+    },
+    {
+      "purchaseId": "a6d93761-366f-4e66-9a2f-2621d94896cb",
+      "cardId": "ea8fd0b9-c2d9-4d43-9c23-44cb99d079bb",
+      "purchaseDate": "2022-04-06T06:29:40Z",
+      "quantity": 1,
+      "cardCost": 5,
+      "totalCost": 5
+    },
+    {
+      "purchaseId": "c6207ac3-3c64-49f4-9383-e47c32f11c28",
+      "cardId": "25d01c80-bca1-4a00-b1d0-0fbd39ff9e89",
+      "purchaseDate": "2022-06-17T12:03:13Z",
+      "quantity": 2,
+      "cardCost": 40,
+      "totalCost": 80
+    },
+    {
+      "purchaseId": "02cb1517-154a-469e-88a1-33449be5b6de",
+      "cardId": "1d6df6e3-b7ea-4507-9d66-87c6ee8ed5b9",
+      "purchaseDate": "2022-05-26T03:42:34Z",
+      "quantity": 2,
+      "cardCost": 15000,
+      "totalCost": 30000
+    },
+    {
+      "purchaseId": "6e468dfb-8cfc-4ad6-af0c-af0a1f6726ab",
+      "cardId": "000a8c23-5bca-436c-a216-4e747a94c511",
+      "purchaseDate": "2022-02-03T13:03:56Z",
+      "quantity": 2,
+      "cardCost": 15,
+      "totalCost": 30
+    },
+    {
+      "purchaseId": "0f67af62-d82b-4986-ba91-0d7cc8261e21",
+      "cardId": "c5b600dc-6bfb-492a-b335-c3cc8c707959",
+      "purchaseDate": "2022-03-16T04:44:49Z",
+      "quantity": 1,
+      "cardCost": 2,
+      "totalCost": 2
+    },
+    {
+      "purchaseId": "c7539c9a-06a1-4e1c-aba1-4b7c60354974",
+      "cardId": "9d5fafbc-312b-47e8-ada1-283918f0c3b5",
+      "purchaseDate": "2022-08-01T04:44:36Z",
+      "quantity": 1,
+      "cardCost": 8,
+      "totalCost": 8
+    },
+    {
+      "purchaseId": "80e5fcca-73a3-4679-b27f-21328a77e077",
+      "cardId": "0114d5d4-ae48-46fa-b0ca-afe60eb88add",
+      "purchaseDate": "2022-10-23T09:58:14Z",
+      "quantity": 1,
+      "cardCost": 2,
+      "totalCost": 2
+    },
+    {
+      "purchaseId": "33d99aae-0b34-4c3c-af34-dba1201fa025",
+      "cardId": "e5b0da8c-148d-4680-b262-8609fb8a10da",
+      "purchaseDate": "2022-12-25T00:37:26Z",
+      "quantity": 2,
+      "cardCost": 2,
+      "totalCost": 4
+    },
+    {
+      "purchaseId": "0a05c7b9-01a2-48d2-b1ed-51e11dc50550",
+      "cardId": "2be5b024-2c96-4f29-912c-c6f36353f799",
+      "purchaseDate": "2022-10-29T19:34:59Z",
+      "quantity": 1,
+      "cardCost": 10,
+      "totalCost": 10
+    },
+    {
+      "purchaseId": "4bbd5b44-51ea-40cb-b993-8c1c1f3d6146",
+      "cardId": "fcf2e432-62a3-4b6f-a34d-36e42a12272e",
+      "purchaseDate": "2022-05-09T00:34:59Z",
+      "quantity": 2,
+      "cardCost": 2,
+      "totalCost": 4
+    },
+    {
+      "purchaseId": "1dc72d06-61c1-4606-b604-15fcd1a3943e",
+      "cardId": "fc4c81e5-f1ac-40f5-8c6f-da3fbad5599d",
+      "purchaseDate": "2022-12-12T10:12:24Z",
+      "quantity": 1,
+      "cardCost": 220,
+      "totalCost": 220
+    },
+    {
+      "purchaseId": "51f66b06-f965-433c-9fca-35e344324b3f",
+      "cardId": "07238d8e-0037-4972-87ca-0df206ee3e42",
+      "purchaseDate": "2022-11-23T16:45:20Z",
+      "quantity": 2,
+      "cardCost": 2100,
+      "totalCost": 4200
+    },
+    {
+      "purchaseId": "0669c359-14ad-488f-bf66-553cb4263a06",
+      "cardId": "154b7860-23a2-4564-ad99-1745ab7122ef",
+      "purchaseDate": "2022-06-18T10:26:07Z",
+      "quantity": 3,
+      "cardCost": 120,
+      "totalCost": 360
+    },
+    {
+      "purchaseId": "5e697ec5-7722-48b5-b682-c3752a11b62e",
+      "cardId": "8d4bf814-65d4-4df4-84cc-68911d925fdf",
+      "purchaseDate": "2022-08-07T17:41:10Z",
+      "quantity": 1,
+      "cardCost": 6000,
+      "totalCost": 6000
+    },
+    {
+      "purchaseId": "3e54b486-1044-46b6-82f9-2646d92d4afa",
+      "cardId": "a52bf1bd-3d35-4cd2-849a-354e3952e2d2",
+      "purchaseDate": "2022-02-01T19:40:46Z",
+      "quantity": 1,
+      "cardCost": 60000,
+      "totalCost": 60000
+    },
+    {
+      "purchaseId": "3726ca7b-1f32-4cad-a21b-6112de7d73ad",
+      "cardId": "d35623ee-bef6-42b2-8776-2f99f8bb4782",
+      "purchaseDate": "2022-07-16T01:03:33Z",
+      "quantity": 3,
+      "cardCost": 10,
+      "totalCost": 30
+    },
+    {
+      "purchaseId": "54e4ebc5-b083-42f3-a3ec-90dcd64923f3",
+      "cardId": "8ac1ac77-7358-425e-be16-0bdde9f02e59",
+      "purchaseDate": "2022-02-19T15:33:07Z",
+      "quantity": 1,
+      "cardCost": 15000,
+      "totalCost": 15000
+    },
+    {
+      "purchaseId": "21af41db-67ee-42fb-ad12-8e53c9017a21",
+      "cardId": "1afc136b-4d9f-4e8e-aace-8e1df908a404",
+      "purchaseDate": "2022-04-20T20:56:35Z",
+      "quantity": 1,
+      "cardCost": 3,
+      "totalCost": 3
+    },
+    {
+      "purchaseId": "6efcb79a-8db6-4271-b28b-cfb46441d6d8",
+      "cardId": "af84cc12-4fea-4f58-aece-f2ce92ca9580",
+      "purchaseDate": "2022-01-08T17:38:44Z",
+      "quantity": 1,
+      "cardCost": 13000,
+      "totalCost": 13000
+    },
+    {
+      "purchaseId": "a5d27d65-6419-4741-94f0-9499151f9031",
+      "cardId": "86e3bb1c-2f5d-4774-98f3-4df7cddd0a0f",
+      "purchaseDate": "2022-11-16T06:44:31Z",
+      "quantity": 2,
+      "cardCost": 5,
+      "totalCost": 10
+    },
+    {
+      "purchaseId": "0ffb160a-c687-4155-bea3-fc3ecc7da237",
+      "cardId": "26b017c6-06d8-443f-9b4a-d6b1cee6f4c0",
+      "purchaseDate": "2022-02-13T05:52:33Z",
+      "quantity": 2,
+      "cardCost": 10000,
+      "totalCost": 20000
+    },
+    {
+      "purchaseId": "f96e84fc-3b9c-4f96-b80c-0646752c2624",
+      "cardId": "440c9e80-6bf8-4eb3-b2d2-f81936d67de3",
+      "purchaseDate": "2022-05-05T23:57:50Z",
+      "quantity": 2,
+      "cardCost": 25,
+      "totalCost": 50
+    },
+    {
+      "purchaseId": "65419b2f-d156-408b-bfb6-52846e3aca1d",
+      "cardId": "98255f4e-40a6-470f-89a5-0792729f8947",
+      "purchaseDate": "2022-06-27T23:54:15Z",
+      "quantity": 1,
+      "cardCost": 10,
+      "totalCost": 10
+    },
+    {
+      "purchaseId": "cd59eb23-5b53-4a0c-a1a0-0950c5ea17f4",
+      "cardId": "2a339fb2-f9f3-43bc-a85a-b217a0a38f12",
+      "purchaseDate": "2022-06-04T02:16:54Z",
+      "quantity": 2,
+      "cardCost": 100,
+      "totalCost": 200
+    },
+    {
+      "purchaseId": "31b464d9-89a7-431e-9bf1-9d68ee05d549",
+      "cardId": "8a8391b2-b4ac-4847-b652-66ffd8d65875",
+      "purchaseDate": "2022-12-08T22:05:22Z",
+      "quantity": 2,
+      "cardCost": 1,
+      "totalCost": 2
+    },
+    {
+      "purchaseId": "767fc135-43ca-4067-87bb-0ab503bbd4c3",
+      "cardId": "be2157fb-7454-405e-9511-bf7ba81b7726",
+      "purchaseDate": "2022-01-25T15:21:10Z",
+      "quantity": 2,
+      "cardCost": 2,
+      "totalCost": 4
+    },
+    {
+      "purchaseId": "52ce8633-b4cc-455d-94ab-531a7fb5b720",
+      "cardId": "fdf1ba3d-fa06-4ce5-90ff-d081c5d37176",
+      "purchaseDate": "2022-09-27T13:23:04Z",
+      "quantity": 1,
+      "cardCost": 2000,
+      "totalCost": 2000
+    },
+    {
+      "purchaseId": "e292f886-0f8d-4989-bc01-f43dfffde54e",
+      "cardId": "afded6df-058f-477d-9878-e0e0b1d3dff3",
+      "purchaseDate": "2022-10-13T00:50:04Z",
+      "quantity": 2,
+      "cardCost": 90,
+      "totalCost": 180
+    },
+    {
+      "purchaseId": "42e2086e-6dda-4c8e-b635-4387d794d6a0",
+      "cardId": "daa29167-82a7-474b-9687-b8b903e7ec69",
+      "purchaseDate": "2022-09-16T22:59:06Z",
+      "quantity": 1,
+      "cardCost": 8,
+      "totalCost": 8
+    },
+    {
+      "purchaseId": "c223c7fe-38d5-4291-b618-c44bd9f797a7",
+      "cardId": "ccb83982-71f3-4497-bad8-7e64c6920dc6",
+      "purchaseDate": "2022-03-28T02:21:31Z",
+      "quantity": 2,
+      "cardCost": 2,
+      "totalCost": 4
+    },
+    {
+      "purchaseId": "e12f6fd6-af77-4556-8866-c724d88acc5d",
+      "cardId": "1936d406-e89e-40e4-bff7-1827532269d4",
+      "purchaseDate": "2022-09-20T14:09:37Z",
+      "quantity": 2,
+      "cardCost": 2,
+      "totalCost": 4
+    },
+    {
+      "purchaseId": "503fbb6e-2c84-4293-ad1e-8ad1a4ea3c8f",
+      "cardId": "c849a535-5f8b-47e3-889c-015693a644ac",
+      "purchaseDate": "2022-08-03T19:45:31Z",
+      "quantity": 2,
+      "cardCost": 1,
+      "totalCost": 2
+    },
+    {
+      "purchaseId": "418785b8-d434-4f1b-827b-52584eb91414",
+      "cardId": "0c3e80ee-59b3-4fc4-b760-8b07acc2d3ae",
+      "purchaseDate": "2022-03-28T16:39:46Z",
+      "quantity": 2,
+      "cardCost": 90,
+      "totalCost": 180
+    },
+
+    {
+      "purchaseId": "032f3bc6-1edf-45ee-8cdd-7a3dbd4ec6bd",
+      "cardId": "d8f5bee3-f3eb-4071-a124-6b857e0fd798",
+      "purchaseDate": "2022-09-11T18:58:14Z",
+      "quantity": 1,
+      "cardCost": 2000,
+      "totalCost": 2000
+    },
+    {
+      "purchaseId": "f64f8bfd-7c71-4bb0-a74e-21907a8b2a71",
+      "cardId": "8d15de86-0e4a-4414-9166-7a33610202d3",
+      "purchaseDate": "2022-06-19T11:19:53Z",
+      "quantity": 2,
+      "cardCost": 3,
+      "totalCost": 6
+    },
+    {
+      "purchaseId": "aa148601-a438-4c9a-ba20-6645945e750b",
+      "cardId": "ea8fd0b9-c2d9-4d43-9c23-44cb99d079bb",
+      "purchaseDate": "2022-12-13T15:26:09Z",
+      "quantity": 2,
+      "cardCost": 5,
+      "totalCost": 10
+    },
+    {
+      "purchaseId": "feabf3d1-9727-4b03-bd5c-2c97d85fc91e",
+      "cardId": "25d01c80-bca1-4a00-b1d0-0fbd39ff9e89",
+      "purchaseDate": "2022-07-06T09:30:09Z",
+      "quantity": 1,
+      "cardCost": 20,
+      "totalCost": 20
+    },
+    {
+      "purchaseId": "6f44cf51-39cf-46c6-8e7e-719347ec2124",
+      "cardId": "1d6df6e3-b7ea-4507-9d66-87c6ee8ed5b9",
+      "purchaseDate": "2022-08-17T21:00:54Z",
+      "quantity": 1,
+      "cardCost": 11667,
+      "totalCost": 1
+    },
+    {
+      "purchaseId": "e76ebddb-90a1-4916-a3bd-17b5c58855dd",
+      "cardId": "000a8c23-5bca-436c-a216-4e747a94c511",
+      "purchaseDate": "2022-10-14T08:56:13Z",
+      "quantity": 1,
+      "cardCost": 15,
+      "totalCost": 15
+    },
+    {
+      "purchaseId": "00fb05b1-724d-4b82-8600-441d20127ecb",
+      "cardId": "c5b600dc-6bfb-492a-b335-c3cc8c707959",
+      "purchaseDate": "2022-01-26T02:37:46Z",
+      "quantity": 2,
+      "cardCost": 2,
+      "totalCost": 4
+    },
+    {
+      "purchaseId": "2b5d452d-be4f-4fc0-a018-a156b0aa144a",
+      "cardId": "9d5fafbc-312b-47e8-ada1-283918f0c3b5",
+      "purchaseDate": "2017-09-20T01:05:24Z",
+      "quantity": 2,
+      "cardCost": 7,
+      "totalCost": 14
+    },
+    {
+      "purchaseId": "8272d8dc-df85-455c-b2ec-7cc4611a570c",
+      "cardId": "0114d5d4-ae48-46fa-b0ca-afe60eb88add",
+      "purchaseDate": "2022-11-05T03:06:06Z",
+      "quantity": 2,
+      "cardCost": 2,
+      "totalCost": 4
+    },
+    {
+      "purchaseId": "5d8b58d2-63b1-4419-ab46-16ed3664adfc",
+      "cardId": "e5b0da8c-148d-4680-b262-8609fb8a10da",
+      "purchaseDate": "2022-11-29T17:59:44Z",
+      "quantity": 1,
+      "cardCost": 2,
+      "totalCost": 2
+    },
+    {
+      "purchaseId": "e33fabca-19cf-469b-b3e7-6e5f1f434a3e",
+      "cardId": "2be5b024-2c96-4f29-912c-c6f36353f799",
+      "purchaseDate": "2022-03-14T04:27:34Z",
+      "quantity": 2,
+      "cardCost": 15,
+      "totalCost": 30
+    },
+    {
+      "purchaseId": "17c90a13-0871-44a5-9dcf-9b46d756b780",
+      "cardId": "fcf2e432-62a3-4b6f-a34d-36e42a12272e",
+      "purchaseDate": "2022-05-03T03:18:22Z",
+      "quantity": 2,
+      "cardCost": 1,
+      "totalCost": 2
+    },
+    {
+      "purchaseId": "22be5e72-440c-4a02-8176-9eb50d9cdc99",
+      "cardId": "fc4c81e5-f1ac-40f5-8c6f-da3fbad5599d",
+      "purchaseDate": "2022-09-14T20:35:26Z",
+      "quantity": 1,
+      "cardCost": 190,
+      "totalCost": 190
+    },
+    {
+      "purchaseId": "3b663fc6-e550-4513-9df4-ecd7399e3ad4",
+      "cardId": "07238d8e-0037-4972-87ca-0df206ee3e42",
+      "purchaseDate": "2022-07-11T20:29:31Z",
+      "quantity": 1,
+      "cardCost": 1500,
+      "totalCost": 1500
+    },
+    {
+      "purchaseId": "a7cd1009-cca3-4dd0-a08e-519fbef15886",
+      "cardId": "154b7860-23a2-4564-ad99-1745ab7122ef",
+      "purchaseDate": "2022-11-29T04:47:23Z",
+      "quantity": 1,
+      "cardCost": 100,
+      "totalCost": 100
+    },
+    {
+      "purchaseId": "08232378-99cf-4828-b36f-6d7a31baba64",
+      "cardId": "8d4bf814-65d4-4df4-84cc-68911d925fdf",
+      "purchaseDate": "2022-09-15T07:58:08Z",
+      "quantity": 1,
+      "cardCost": 5500,
+      "totalCost": 5500
+    },
+    {
+      "purchaseId": "d33fe221-fd05-4f75-a8cd-8540ab8e8ce6",
+      "cardId": "a52bf1bd-3d35-4cd2-849a-354e3952e2d2",
+      "purchaseDate": "2022-03-27T16:52:42Z",
+      "quantity": 1,
+      "cardCost": 40000,
+      "totalCost": 40000
+    },
+    {
+      "purchaseId": "9cd56445-6055-450a-a992-e3ae14bb3338",
+      "cardId": "d35623ee-bef6-42b2-8776-2f99f8bb4782",
+      "purchaseDate": "2022-03-20T02:42:32Z",
+      "quantity": 1,
+      "cardCost": 20,
+      "totalCost": 20
+    },
+    {
+      "purchaseId": "fd6d7c0a-5d02-4dbc-8217-1d826eb569ce",
+      "cardId": "8ac1ac77-7358-425e-be16-0bdde9f02e59",
+      "purchaseDate": "2022-09-14T23:33:07Z",
+      "quantity": 1,
+      "cardCost": 20000,
+      "totalCost": 20000
+    },
+    {
+      "purchaseId": "fe28b71d-8883-4157-ac89-4a5105e8ff54",
+      "cardId": "1afc136b-4d9f-4e8e-aace-8e1df908a404",
+      "purchaseDate": "2022-01-02T02:33:03Z",
+      "quantity": 2,
+      "cardCost": 4,
+      "totalCost": 8
+    },
+    {
+      "purchaseId": "93a95d90-2d95-4e21-9d61-deb872b8ce23",
+      "cardId": "af84cc12-4fea-4f58-aece-f2ce92ca9580",
+      "purchaseDate": "2022-06-18T17:24:06Z",
+      "quantity": 1,
+      "cardCost": 16000,
+      "totalCost": 16000
+    },
+    {
+      "purchaseId": "52a78535-b622-4c9e-834c-21ca705d07b5",
+      "cardId": "86e3bb1c-2f5d-4774-98f3-4df7cddd0a0f",
+      "purchaseDate": "2022-11-06T03:27:35Z",
+      "quantity": 3,
+      "cardCost": 5,
+      "totalCost": 15
+    },
+    {
+      "purchaseId": "ed4adaea-bcd2-49e5-bc9e-84ed807fa04c",
+      "cardId": "26b017c6-06d8-443f-9b4a-d6b1cee6f4c0",
+      "purchaseDate": "2022-04-20T14:20:15Z",
+      "quantity": 1,
+      "cardCost": 11000,
+      "totalCost": 1100
+    },
+    {
+      "purchaseId": "1ee44e30-7a8f-4e88-b6dd-01c11b26f6b9",
+      "cardId": "440c9e80-6bf8-4eb3-b2d2-f81936d67de3",
+      "purchaseDate": "2022-04-18T13:02:07Z",
+      "quantity": 2,
+      "cardCost": 20,
+      "totalCost": 40
+    },
+    {
+      "purchaseId": "913bc6d9-6757-457c-a565-471396e4f5b5",
+      "cardId": "98255f4e-40a6-470f-89a5-0792729f8947",
+      "purchaseDate": "2022-06-26T01:51:22Z",
+      "quantity": 2,
+      "cardCost": 10,
+      "totalCost": 10
+    },
+    {
+      "purchaseId": "d33baec5-186c-428d-996d-6dbd12e20c10",
+      "cardId": "2a339fb2-f9f3-43bc-a85a-b217a0a38f12",
+      "purchaseDate": "2022-06-01T00:52:08Z",
+      "quantity": 2,
+      "cardCost": 120,
+      "totalCost": 240
+    },
+    {
+      "purchaseId": "6eb61d25-4cf6-43f8-a52d-302cf0b29553",
+      "cardId": "8a8391b2-b4ac-4847-b652-66ffd8d65875",
+      "purchaseDate": "2022-04-19T21:39:04Z",
+      "quantity": 1,
+      "cardCost": 1,
+      "totalCost": 1
+    },
+    {
+      "purchaseId": "37b1920b-5a4b-41c7-bbf0-a872e93f2ab3",
+      "cardId": "be2157fb-7454-405e-9511-bf7ba81b7726",
+      "purchaseDate": "2022-12-12T12:16:22Z",
+      "quantity": 1,
+      "cardCost": 1,
+      "totalCost": 1
+    },
+    {
+      "purchaseId": "9b4f68c8-2d1a-44c8-95e9-3b257a6c37e3",
+      "cardId": "fdf1ba3d-fa06-4ce5-90ff-d081c5d37176",
+      "purchaseDate": "2022-12-29T16:46:08Z",
+      "quantity": 2,
+      "cardCost": 3000,
+      "totalCost": 6000
+    },
+    {
+      "purchaseId": "87c3172d-9ae8-4163-b8ef-ad638fa27c95",
+      "cardId": "afded6df-058f-477d-9878-e0e0b1d3dff3",
+      "purchaseDate": "2022-04-05T05:20:27Z",
+      "quantity": 1,
+      "cardCost": 80,
+      "totalCost": 80
+    },
+    {
+      "purchaseId": "8aed5186-cb4a-4bbb-b8be-857ff8227289",
+      "cardId": "daa29167-82a7-474b-9687-b8b903e7ec69",
+      "purchaseDate": "2022-05-19T23:47:06Z",
+      "quantity": 2,
+      "cardCost": 4,
+      "totalCost": 8
+    },
+    {
+      "purchaseId": "a5e1bed8-ced3-41cd-af3b-d891e01e1c1d",
+      "cardId": "ccb83982-71f3-4497-bad8-7e64c6920dc6",
+      "purchaseDate": "2022-12-19T05:41:28Z",
+      "quantity": 2,
+      "cardCost": 1,
+      "totalCost": 2
+    },
+    {
+      "purchaseId": "dcc30321-e243-4cce-808a-2e0c553eee94",
+      "cardId": "1936d406-e89e-40e4-bff7-1827532269d4",
+      "purchaseDate": "2022-10-06T13:58:33Z",
+      "quantity": 1,
+      "cardCost": 3,
+      "totalCost": 3
+    },
+    {
+      "purchaseId": "d3462347-2e06-46ff-9088-ceb25ee3ed11",
+      "cardId": "c849a535-5f8b-47e3-889c-015693a644ac",
+      "purchaseDate": "2022-10-07T18:13:43Z",
+      "quantity": 1,
+      "cardCost": 3,
+      "totalCost": 3
+    },
+    {
+      "purchaseId": "24bb1ac4-4d5c-4308-a6f9-a004bd819f5e",
+      "cardId": "0c3e80ee-59b3-4fc4-b760-8b07acc2d3ae",
+      "purchaseDate": "2022-08-29T16:23:44Z",
+      "quantity": 1,
+      "cardCost": 90,
+      "totalCost": 90
+    },
+    {
+      "purchaseId": "42d5ade2-6b62-47f0-aaa4-0b065a0b73ff",
+      "cardId": "d8f5bee3-f3eb-4071-a124-6b857e0fd798",
+      "purchaseDate": "2022-08-16T06:05:41Z",
+      "quantity": 2,
+      "cardCost": 2000,
+      "totalCost": 4000
+    },
+    {
+      "purchaseId": "394dd7bb-d9ca-4ded-87ca-6336ca68f06c",
+      "cardId": "8d15de86-0e4a-4414-9166-7a33610202d3",
+      "purchaseDate": "2022-06-19T07:23:51Z",
+      "quantity": 1,
+      "cardCost": 2,
+      "totalCost": 2
+    },
+    {
+      "purchaseId": "312e3902-2aaa-4678-bafb-534ec5fc1c24",
+      "cardId": "ea8fd0b9-c2d9-4d43-9c23-44cb99d079bb",
+      "purchaseDate": "2022-03-12T17:47:55Z",
+      "quantity": 4,
+      "cardCost": 10,
+      "totalCost": 40
+    },
+    {
+      "purchaseId": "9685898d-0b3c-4500-98cf-101e4e5818cf",
+      "cardId": "25d01c80-bca1-4a00-b1d0-0fbd39ff9e89",
+      "purchaseDate": "2022-12-27T20:19:43Z",
+      "quantity": 3,
+      "cardCost": 20,
+      "totalCost": 60
+    },
+    {
+      "purchaseId": "c67d1950-3c03-401e-9f4a-573cc919c3ff",
+      "cardId": "1d6df6e3-b7ea-4507-9d66-87c6ee8ed5b9",
+      "purchaseDate": "2022-03-28T15:44:26Z",
+      "quantity": 2,
+      "cardCost": 10000,
+      "totalCost": 20000
+    },
+    {
+      "purchaseId": "0d793046-8eff-412c-983e-c13196c331cf",
+      "cardId": "000a8c23-5bca-436c-a216-4e747a94c511",
+      "purchaseDate": "2022-09-30T02:48:52Z",
+      "quantity": 2,
+      "cardCost": 10,
+      "totalCost": 20
+    },
+    {
+      "purchaseId": "b38af82a-d3fb-46ec-9f98-346faf95629f",
+      "cardId": "c5b600dc-6bfb-492a-b335-c3cc8c707959",
+      "purchaseDate": "2022-01-17T10:45:44Z",
+      "quantity": 1,
+      "cardCost": 2,
+      "totalCost": 2
+    },
+    {
+      "purchaseId": "32e25004-21cf-44ab-b44e-e3580d0ef9ce",
+      "cardId": "9d5fafbc-312b-47e8-ada1-283918f0c3b5",
+      "purchaseDate": "2022-07-18T14:25:34Z",
+      "quantity": 1,
+      "cardCost": 5,
+      "totalCost": 5
+    },
+    {
+      "purchaseId": "0bfea984-8cdd-45ee-9407-5c9da64f94b0",
+      "cardId": "0114d5d4-ae48-46fa-b0ca-afe60eb88add",
+      "purchaseDate": "2022-01-24T20:41:03Z",
+      "quantity": 2,
+      "cardCost": 1,
+      "totalCost": 2
+    },
+    {
+      "purchaseId": "570950ee-9c94-4423-bc5d-546524adf1f3",
+      "cardId": "e5b0da8c-148d-4680-b262-8609fb8a10da",
+      "purchaseDate": "2022-02-09T06:05:04Z",
+      "quantity": 1,
+      "cardCost": 1,
+      "totalCost": 1
+    },
+    {
+      "purchaseId": "5ad8b5f9-aaee-428e-aa11-3c1991e6d703",
+      "cardId": "2be5b024-2c96-4f29-912c-c6f36353f799",
+      "purchaseDate": "2022-01-23T11:04:04Z",
+      "quantity": 2,
+      "cardCost": 20,
+      "totalCost": 40
+    },
+    {
+      "purchaseId": "6253b4e0-5089-4daa-ad09-6424516ff613",
+      "cardId": "fcf2e432-62a3-4b6f-a34d-36e42a12272e",
+      "purchaseDate": "2022-07-08T16:20:29Z",
+      "quantity": 1,
+      "cardCost": 3,
+      "totalCost": 3
+    },
+
+    {
+        "purchaseId": "87f3e89d-621b-475f-898c-543210987654",
+        "cardId": "97f3e89d-621b-475f-898c-543210987654",
+        "purchaseDate": "2022-03-08T16:20:29Z",
+        "quantity": 1,
+        "cardCost": 600,
+        "totalCost": 600
+      }
+  ]
+  

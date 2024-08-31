@@ -14,43 +14,43 @@ const client_1 = require("@prisma/client");
 const prisma = new client_1.PrismaClient();
 const getDashboardMetrics = (req, res) => __awaiter(void 0, void 0, void 0, function* () {
     try {
-        const popularProducts = yield prisma.products.findMany({
+        const popularCards = yield prisma.cards.findMany({
             take: 15,
             orderBy: {
-                stockQuantity: "desc",
+                quantity: "desc",
             },
         });
-        const saleSummary = yield prisma.salesSummary.findMany({
+        const soldCardSummary = yield prisma.soldCardSummary.findMany({
             take: 5,
             orderBy: {
                 date: "desc",
             },
         });
-        const purchaseSummary = yield prisma.purchaseSummary.findMany({
+        const boughtCardSummary = yield prisma.boughtCardSummary.findMany({
             take: 5,
             orderBy: {
                 date: "desc",
             },
         });
-        const expenseSummary = yield prisma.expenseSummary.findMany({
+        const collectionSummary = yield prisma.collectionSummary.findMany({
             take: 5,
             orderBy: {
                 date: "desc",
             },
         });
-        const expenseByCatergorySummaryRaw = yield prisma.expenseByCategory.findMany({
+        const collectionByCategoryRaw = yield prisma.collectionByCategory.findMany({
             take: 5,
             orderBy: {
                 date: "desc",
             },
         });
-        const expenseByCatergorySummary = expenseByCatergorySummaryRaw.map((item) => (Object.assign(Object.assign({}, item), { amount: item.amount.toString() })));
+        const collectionByCategory = collectionByCategoryRaw.map((item) => (Object.assign(Object.assign({}, item), { amount: item.amount.toString() })));
         res.json({
-            popularProducts,
-            saleSummary,
-            purchaseSummary,
-            expenseSummary,
-            expenseByCatergorySummary,
+            popularCards,
+            soldCardSummary,
+            boughtCardSummary,
+            collectionSummary,
+            collectionByCategory,
         });
     }
     catch (error) {
