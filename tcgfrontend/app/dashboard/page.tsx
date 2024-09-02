@@ -1,6 +1,6 @@
 "use client"
 
-import {ChartLine, Package, ShoppingBag, TrendingDown, TrendingUp } from "lucide-react"
+import {BadgePoundSterlingIcon, ChartLine, TrendingDown, TrendingUp } from "lucide-react"
 import BoughtCardSummary from "./BoughtCardSummary"
 import CardStat from "./CardStat"
 import CollectionSummary from "./CollectionSummary"
@@ -37,7 +37,7 @@ const Dashboard = () => {
     />
         <CardStat 
         title = "Profit & Loss"
-        primaryIcon={<ShoppingBag className="text-blue-600 w-6 h-6" />}
+        primaryIcon={<BadgePoundSterlingIcon className="text-blue-600 w-6 h-6" />}
         dateRange="01 - 31 August 2024"
         details={[
           {

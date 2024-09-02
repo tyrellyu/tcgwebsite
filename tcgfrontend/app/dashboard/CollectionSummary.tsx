@@ -20,7 +20,7 @@ import { CollectionByCategory, useGetDashboardMetricsQuery } from "../state/api"
     const expenseSums = expenseByCategorySummary.reduce(
       (acc: ExpenseSums, item: CollectionByCategory) => {
         const category = item.category + " Cards";
-        const amount = parseInt(item.date);
+        const amount = parseInt(item.amount);
         if (!acc[category]) acc[category] = 0;
         acc[category] += amount;
         return acc;
