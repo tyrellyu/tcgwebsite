@@ -15,9 +15,9 @@ const prisma = new client_1.PrismaClient();
 const getDashboardMetrics = (req, res) => __awaiter(void 0, void 0, void 0, function* () {
     try {
         const popularCards = yield prisma.cards.findMany({
-            take: 15,
+            take: 20,
             orderBy: {
-                quantity: "desc",
+                price: "desc",
             },
         });
         const soldCardSummary = yield prisma.soldCardSummary.findMany({

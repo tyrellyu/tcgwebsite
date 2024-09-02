@@ -9,9 +9,9 @@ export const getDashboardMetrics = async (
 ): Promise<void> => {
     try {
         const popularCards = await prisma.cards.findMany({
-            take: 15,
+            take: 20,
             orderBy: {
-                quantity: "desc", 
+                price: "desc", 
             },
         });
         const soldCardSummary = await prisma.soldCardSummary.findMany({
